@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nepal Administrative Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tokml@0.4.0/tokml.js"></script>
+</head>
+<body>
+    <div class="breadcrumb flat" id="breadcrumb">
+        <a onclick="goToLevel('nepal')">Nepal</a>
+    </div>
+    <button id="downloadButton" onclick="downloadCurrentLevel()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+        </svg>
+        Download KML
+    </button>
+    <div id="map"></div>
+
+    <script>
+        const map = L.map('map').setView([28.3949, 84.1240], 7); // Nepal's center
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 18,
+        }).addTo(map);
+
+        // Add Google Maps basemap (requires API key)
+        var googleMaps = L.tileLayer('https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
+            attribution: '&copy; <a href="https://www.google.com/maps">Google Maps</a>'
+        });
+
+        // Add Google Satellite basemap (requires API key)
+        var googleSatellite = L.tileLayer('https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
+            attribution: '&copy; <a href="https://www.google.com/maps">Google Satellite</a>'
+        });
+
+        // Layer control setup
+        var baseMaps = {
+            "OpenStreetMap": L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'),
+            "Google Maps": googleMaps,
+            "Google Satellite": googleSatellite
+        };
+
+        // Add layer control
+        L.control.layers(baseMaps).addTo(map);
+
+        // GeoJSON data for each level
+        const provinceGeoJson = "data/province.geojson";
+        const districtGeoJson = "data/districts/"; // Folder containing districts as individual GeoJSON files
+        const localLevelGeoJson = "data/locallevels/"; // Folder containing local levels
+        const wardGeoJson = "data/wards/"; // Folder containing wards
+
+        // Global state to track the current hierarchy level and selected region
+        let currentLevel = 'province';
+        let currentGeoJson = null;
+
+        // Updated breadcrumb navigation logic
+        let breadcrumbLevels = [
+            { level: 'nepal', name: 'Nepal' },
+            { level: 'province', name: null },
+            { level: 'district', name: null },
+            { level: 'locallevel', name: null },
+            { level: 'ward', name: null}
+        ];
+
+        // Colors for each province and its hierarchy
+        const provinceColors = {};
+
+        // Function to get or assign a color for a province
+        function getProvinceColor(name) {
+            if (!provinceColors[name]) {
+                provinceColors[name] = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+            }
+            return provinceColors[name];
+        }
+
+        // Feature layers for each level
+        const layers = {
+            province: L.geoJson(null, {
+                style: (feature) => ({
+                    fillColor: getProvinceColor(feature.properties.name), weight: 1, opacity: 1, color: 'white', fillOpacity: 0.7
+                }),
+                onEachFeature: (feature, layer) => {
+                    layer.bindTooltip(feature.properties.name, { permanent: true, direction: 'center', className: 'leaflet-tooltip-province' });
+                    layer.on('click', () => {
+                        clearSameLevelLayers('district');
+                        clearSameLevelLayers('locallevel');
+                        clearSameLevelLayers('ward');
+                        zoomToFeature(feature, 'district');
+                    });
+                }
+            }),
+            district: L.geoJson(null, {
+                style: (feature) => ({
+                    fillColor: getProvinceColor(feature.properties.province), weight: 2, opacity: 0.8, color: 'white', fillOpacity: 0.7
+                }),
+                onEachFeature: (feature, layer) => {
+                    layer.bindTooltip(feature.properties.name, { permanent: true, direction: 'center', className: 'leaflet-tooltip-district' });
+                    layer.on('click', () => {
+                        clearSameLevelLayers('locallevel');
+                        clearSameLevelLayers('ward');
+                        zoomToFeature(feature, 'locallevel');
+                    });
+                }
+            }),
+            locallevel: L.geoJson(null, {
+                style: (feature) => ({
+                    fillColor: getProvinceColor(feature.properties.province), weight: 1, opacity: 1, color: 'white', fillOpacity: 0.7
+                }),
+                onEachFeature: (feature, layer) => {
+                    layer.bindTooltip(feature.properties.name, { permanent: true, direction: 'center', className: 'leaflet-tooltip-locallevel' });
+                    layer.on('click', () => {
+                        clearSameLevelLayers('ward');
+                        zoomToFeature(feature, 'ward');
+                    });
+                }
+            }),
+            ward: L.geoJson(null, {
+                style: (feature) => ({
+                    fillColor: getProvinceColor(feature.properties.province), weight: 1, opacity: 1, color: 'white', dashArray: '2, 5', fillOpacity: 0.7
+                }),
+                onEachFeature: (feature, layer) => {
+                    layer.bindTooltip(feature.properties.name, { permanent: true, direction: 'center', className: 'leaflet-tooltip-ward' });
+                    layer.bindPopup(`Ward: ${feature.properties.name}`);
+                }
+            }),
+        };
+
+        // Update breadcrumb navigation
+        function updateBreadcrumb(level, name) {
+            // Update the appropriate level in the breadcrumbLevels array
+            switch (level) {
+                case 'province':
+                    breadcrumbLevels[1] = { level: 'province', name: name };
+                    // Reset lower levels
+                    breadcrumbLevels[2] = { level: 'district', name: null };
+                    breadcrumbLevels[3] = { level: 'locallevel', name: null };
+                    breadcrumbLevels[4] = { level: 'ward', name: null };
+                    break;
+                case 'district':
+                    breadcrumbLevels[2] = { level: 'district', name: name };
+                    breadcrumbLevels[3] = { level: 'locallevel', name: null };
+                    breadcrumbLevels[4] = { level: 'ward', name: null };
+                    break;
+                case 'locallevel':
+                    breadcrumbLevels[3] = { level: 'locallevel', name: name };
+                    breadcrumbLevels[4] = { level: 'ward', name: null };
+                    break;
+                case 'ward':
+                    breadcrumbLevels[4] = { level: 'ward', name: name };
+                    break;
+            }
+
+            // Render breadcrumb
+            const breadcrumb = document.getElementById('breadcrumb');
+            breadcrumb.innerHTML = breadcrumbLevels.map((level, idx) => {
+                if (idx === 0 || level.name) {
+                    return `<a onclick="goToLevel('${level.level}', ${idx})">${level.level === 'nepal' ? 'Nepal' : level.name}</a>`;
+                }
+                return '';
+            }).join('');
+        }
+
+        // Load initial province data
+        fetch(provinceGeoJson)
+            .then(response => response.json())
+            .then(data => {
+                currentGeoJson = data;
+                layers.province.addData(data).addTo(map);
+            });
+
+        // Zoom to a feature and load the next hierarchy level
+        function zoomToFeature(feature, nextLevel) {
+            const bounds = L.geoJson(feature).getBounds();
+            map.fitBounds(bounds);
+            updateBreadcrumb(nextLevel, feature.properties.name);
+            loadNextLevel(feature, nextLevel);
+        }
+
+        // Modify existing goToLevel function
+        function goToLevel(level, index = null) {
+            // If going to 'nepal', reset to province level
+            if (level === 'nepal') {
+                currentLevel = 'province';
+                breadcrumbLevels[1] = { level: 'province', name: null };
+                breadcrumbLevels[2] = { level: 'district', name: null };
+                breadcrumbLevels[3] = { level: 'locallevel', name: null };
+                breadcrumbLevels[4] = { level: 'ward', name: null };
+
+                clearLowerHierarchyLayers('province');
+                fetch(provinceGeoJson)
+                    .then(response => response.json())
+                    .then(data => {
+                        currentGeoJson = data;
+                        layers.province.clearLayers().addData(data).addTo(map);
+                        map.setView([28.3949, 84.1240], 7); // Reset to Nepal's center
+                        updateBreadcrumb('province', null);
+                    });
+                return;
+            }
+
+            // Determine the target GeoJSON path based on the level and name
+            const targetLevel = breadcrumbLevels[index];
+            const geoJsonPath = getGeoJsonPath(level, targetLevel.name);
+
+            // Clear layers below the selected level
+            clearLowerHierarchyLayers(level);
+
+            fetch(geoJsonPath)
+                .then(response => response.json())
+                .then(data => {
+                    currentGeoJson = data;
+                    layers[level].clearLayers().addData(data).addTo(map);
+                    
+                    // Fit bounds to the data
+                    const bounds = layers[level].getBounds();
+                    map.fitBounds(bounds);
+
+                    // Update current level
+                    currentLevel = level;
+                });
+        }
+
+        // Load the next level of administrative boundaries
+        function loadNextLevel(feature, level) {
+            currentLevel = level;
+
+            const geoJsonPath = `${getGeoJsonPath(level, feature.properties.name)}`;
+
+            fetch(geoJsonPath)
+                .then(response => response.json())
+                .then(data => {
+                    currentGeoJson = data;
+                    layers[level].addData(data).addTo(map);
+                });
+        }
+
+        // Clear only lower hierarchy layers
+        function clearLowerHierarchyLayers(level) {
+            const levels = ['province', 'district', 'locallevel', 'ward'];
+            const startIndex = levels.indexOf(level) + 1;
+            for (let i = startIndex; i < levels.length; i++) {
+                layers[levels[i]].clearLayers();
+            }
+        }
+
+        // Clear layers of the same hierarchy level
+        function clearSameLevelLayers(level) {
+            layers[level].clearLayers();
+        }
+
+        // Get the appropriate GeoJSON path for a given level and feature
+        function getGeoJsonPath(level, name) {
+            switch (level) {
+                case 'district':
+                    return `${districtGeoJson}${name}.geojson`;
+                case 'locallevel':
+                    return `${localLevelGeoJson}${name}.geojson`;
+                case 'ward':
+                    return `${wardGeoJson}${name}.geojson`;
+                default:
+                    return provinceGeoJson;
+            }
+        }
+
+        // Updated downloadCurrentLevel function for KML styling
+        function downloadCurrentLevel() {
+            if (!currentGeoJson) {
+                alert("No data to download!");
+                return;
+            }
+
+            // Convert GeoJSON to KML with custom styling for outlines
+            const styledKml = tokml(currentGeoJson, {
+                name: 'name', // Use the 'name' property for the KML name
+                documentName: `${currentLevel} Boundary`,
+                documentDescription: `KML file for ${currentLevel} level boundaries`,
+                simplestyle: {
+                    stroke: `#000000`, // Black outline
+                    "stroke-width": 2, // Thicker line
+                    fill: `#ffffff`, // No fill
+                    "fill-opacity": 0
+                }
+            });
+
+            const blob = new Blob([styledKml], { type: "application/vnd.google-earth.kml+xml" });
+            const url = URL.createObjectURL(blob);
+
+            const link = document.createElement("a");
+            link.href = url;
+            link.download = `${currentLevel}_boundaries.kml`;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    </script>
+</body>
+</html>
