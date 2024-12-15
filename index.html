@@ -258,11 +258,11 @@
         function getGeoJsonPath(level, name) {
             switch (level) {
                 case 'district':
-                    return `${districtGeoJson}${name}.geojson`;
+                    return `${districtGeoJson}${name}.json`;
                 case 'locallevel':
-                    return `${localLevelGeoJson}${name}.geojson`;
+                    return `${localLevelGeoJson}${name}.json`;
                 case 'ward':
-                    return `${wardGeoJson}${name}.geojson`;
+                    return `${wardGeoJson}${name}.json`;
                 default:
                     return provinceGeoJson;
             }
