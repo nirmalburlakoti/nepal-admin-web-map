@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nepal Administrative Map</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/tokml@0.4.0/tokml.js"></script>
 </head>
@@ -170,6 +170,7 @@
         fetch(provinceGeoJson)
             .then(response => response.json())
             .then(data => {
+                console.log(data);
                 currentGeoJson = data;
                 layers.province.addData(data).addTo(map);
             });
