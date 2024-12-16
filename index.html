@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nepal Administrative Map</title>
+    <link rel="icon" type="image/x-icon" href="assets/admin-map-favicon.webp">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles.css">
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/tokml@0.4.0/tokml.js"></script>
 </head>
@@ -276,17 +277,29 @@
                 return;
             }
 
+            // Add simplestyle-spec properties to GeoJSON features
+            const styledGeoJson = {
+                ...currentGeoJson, // Copy the existing GeoJSON object
+                features: currentGeoJson.features.map(feature => ({
+                    ...feature, // Copy the existing feature
+                    properties: {
+                        ...feature.properties, // Retain existing properties
+                        // Add simplestyle-spec styling properties
+                        stroke: "#ff0000",       // Red outline
+                        "stroke-width": 2,      // 2px outline width
+                        "stroke-opacity": 1,    // Fully opaque stroke
+                        fill: "#00ff00",        // Green fill
+                        "fill-opacity": 0.3     // 50% opacity for the fill
+                    }
+                }))
+            };
+
             // Convert GeoJSON to KML with custom styling for outlines
-            const styledKml = tokml(currentGeoJson, {
+            const styledKml = tokml(styledGeoJson, {
                 name: 'name', // Use the 'name' property for the KML name
                 documentName: `${currentLevel} Boundary`,
                 documentDescription: `KML file for ${currentLevel} level boundaries`,
-                simplestyle: {
-                    stroke: `#000000`, // Black outline
-                    "stroke-width": 2, // Thicker line
-                    fill: `#ffffff`, // No fill
-                    "fill-opacity": 0
-                }
+                simplestyle: true
             });
 
             const blob = new Blob([styledKml], { type: "application/vnd.google-earth.kml+xml" });
