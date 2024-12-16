@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nepal Administrative Map</title>
-    <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map/assets/admin-map-favicon.webp">
+    <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.1.0/assets/admin-map-favicon.webp">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map/assets/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.1.0/assets/styles.css">
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/tokml@0.4.0/tokml.js"></script>
 </head>
@@ -51,10 +51,10 @@
         L.control.layers(baseMaps).addTo(map);
 
         // GeoJSON data for each level
-        const provinceGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map/data/province.json";
-        const districtGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map/data/districts/"; // Folder containing districts as individual GeoJSON files
-        const localLevelGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map/data/locallevels/"; // Folder containing local levels
-        const wardGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map/data/wards/"; // Folder containing wards
+        const provinceGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.1.0/data/province.json";
+        const districtGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.1.0/data/districts/"; // Folder containing districts as individual GeoJSON files
+        const localLevelGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.1.0/data/locallevels/"; // Folder containing local levels
+        const wardGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.1.0/data/wards/"; // Folder containing wards
 
         // Global state to track the current hierarchy level and selected region
         let currentLevel = 'province';
