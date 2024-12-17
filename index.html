@@ -6,7 +6,7 @@
     <title>Nepal Administrative Map</title>
     <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.2.0/assets/admin-map-favicon.webp">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.2.0/assets/styles.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles.css">
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/tokml@0.4.0/tokml.js"></script>
     <meta property="og:description" content="An interactive web-based geographical visualization of Nepal's administrative boundaries, allowing users to explore and download administrative divisions from provinces to wards using dynamic, color-coded maps with OpenStreetMap and Google satellite views.">
@@ -27,9 +27,90 @@
         </svg>
         Download KML
     </button>
+
+    <div id="map-controls">
+        <div class="control-group color-group">
+            <label id="color-label" for="color-picker">Stroke Color:</label>
+            <input 
+                type="color" 
+                id="color-picker" 
+                value="#3498db"
+            >
+            <output id="color-value">#3498db</output>
+        </div>
+        <div class="control-group">
+            <label id="opacity-label" for="opacity-slider">Layer Opacity:</label>
+            <input 
+                type="range" 
+                id="opacity-slider" 
+                min="0" 
+                max="1" 
+                step="0.01" 
+                value="0.3"
+            >
+            <output id="opacity-value">0.30</output>
+        </div>
+    </div>
+
     <div id="map"></div>
 
     <script>
+        // Get color and opacity control elements
+        const colorPicker = document.getElementById('color-picker');
+        const colorValue = document.getElementById('color-value');
+        const opacitySlider = document.getElementById('opacity-slider');
+        const opacityValue = document.getElementById('opacity-value');
+
+        // Function to update layer color
+        function updateLayerColor(color) {
+            // Update color value display
+            colorValue.textContent = color;
+
+            // Update each layer's style
+            Object.values(layers).forEach(layer => {
+                layer.eachLayer(function(featureLayer) {
+                    const currentStyle = featureLayer.options.style 
+                        ? featureLayer.options.style(featureLayer.feature) 
+                        : {};
+                    
+                    featureLayer.setStyle({
+                        ...currentStyle,
+                        color: color
+                    });
+                });
+            });
+        }
+
+        // Function to update layer opacity
+        function updateLayerOpacity(opacity) {
+            // Round to 2 decimal places for display
+            const roundedOpacity = Number(opacity).toFixed(2);
+            opacityValue.textContent = roundedOpacity;
+
+            // Update each layer's style
+            Object.values(layers).forEach(layer => {
+                layer.eachLayer(function(featureLayer) {
+                    const currentStyle = featureLayer.options.style 
+                        ? featureLayer.options.style(featureLayer.feature) 
+                        : {};
+                    
+                    featureLayer.setStyle({
+                        ...currentStyle,
+                        fillOpacity: opacity
+                    });
+                });
+            });
+        }
+
+        // Add event listeners to color picker and opacity slider
+        colorPicker.addEventListener('input', function() {
+            updateLayerColor(this.value);
+        });
+
+        opacitySlider.addEventListener('input', function() {
+            updateLayerOpacity(this.value);
+        });
+
         const map = L.map('map').setView([28.3949, 84.1240], 7); // Nepal's center
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 18,
@@ -89,7 +170,7 @@
         const layers = {
             province: L.geoJson(null, {
                 style: (feature) => ({
-                    fillColor: getProvinceColor(feature.properties.name), weight: 1, opacity: 1, color: 'white', fillOpacity: 0.2
+                    fillColor: getProvinceColor(feature.properties.name), weight: 1, opacity: 1, color: colorPicker.value, fillOpacity: opacitySlider.value
                 }),
                 onEachFeature: (feature, layer) => {
                     layer.bindTooltip(feature.properties.name, { permanent: true, direction: 'center', className: 'leaflet-tooltip-province' });
@@ -103,7 +184,7 @@
             }),
             district: L.geoJson(null, {
                 style: (feature) => ({
-                    fillColor: getProvinceColor(feature.properties.province), weight: 2, opacity: 0.8, color: 'white', fillOpacity: 0.2
+                    fillColor: getProvinceColor(feature.properties.province), weight: 2, opacity: 0.8, color: colorPicker.value, fillOpacity: opacitySlider.value
                 }),
                 onEachFeature: (feature, layer) => {
                     layer.bindTooltip(feature.properties.name, { permanent: true, direction: 'center', className: 'leaflet-tooltip-district' });
@@ -116,7 +197,7 @@
             }),
             locallevel: L.geoJson(null, {
                 style: (feature) => ({
-                    fillColor: getProvinceColor(feature.properties.province), weight: 1, opacity: 1, color: 'white', fillOpacity: 0.2
+                    fillColor: getProvinceColor(feature.properties.province), weight: 1, opacity: 1, color: colorPicker.value, fillOpacity: opacitySlider.value
                 }),
                 onEachFeature: (feature, layer) => {
                     layer.bindTooltip(feature.properties.name, { permanent: true, direction: 'center', className: 'leaflet-tooltip-locallevel' });
@@ -128,7 +209,7 @@
             }),
             ward: L.geoJson(null, {
                 style: (feature) => ({
-                    fillColor: getProvinceColor(feature.properties.province), weight: 1, opacity: 1, color: 'white', dashArray: '2, 5', fillOpacity: 0.2
+                    fillColor: getProvinceColor(feature.properties.province), weight: 1, opacity: 1, color: colorPicker.value, dashArray: '2, 5', fillOpacity: opacitySlider.value
                 }),
                 onEachFeature: (feature, layer) => {
                     layer.bindTooltip(feature.properties.name, { permanent: true, direction: 'center', className: 'leaflet-tooltip-ward' });
