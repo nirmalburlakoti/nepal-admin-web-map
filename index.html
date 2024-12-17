@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nepal Administrative Map</title>
-    <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.1.0/assets/admin-map-favicon.webp">
+    <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.2.0/assets/admin-map-favicon.webp">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.1.0/assets/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.2.0/assets/styles.css">
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/tokml@0.4.0/tokml.js"></script>
+    <meta property="og:description" content="An interactive web-based geographical visualization of Nepal's administrative boundaries, allowing users to explore and download administrative divisions from provinces to wards using dynamic, color-coded maps with OpenStreetMap and Google satellite views.">
+    <meta property="og:image" content="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.2.0/assets/admin-map-favicon.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="1024">
 </head>
 <body>
     <div class="breadcrumb flat" id="breadcrumb">
@@ -51,10 +56,10 @@
         L.control.layers(baseMaps).addTo(map);
 
         // GeoJSON data for each level
-        const provinceGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.1.0/data/province.json";
-        const districtGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.1.0/data/districts/"; // Folder containing districts as individual GeoJSON files
-        const localLevelGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.1.0/data/locallevels/"; // Folder containing local levels
-        const wardGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.1.0/data/wards/"; // Folder containing wards
+        const provinceGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.2.0/data/province.json";
+        const districtGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.2.0/data/districts/"; // Folder containing districts as individual GeoJSON files
+        const localLevelGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.2.0/data/locallevels/"; // Folder containing local levels
+        const wardGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.2.0/data/wards/"; // Folder containing wards
 
         // Global state to track the current hierarchy level and selected region
         let currentLevel = 'province';
@@ -84,7 +89,7 @@
         const layers = {
             province: L.geoJson(null, {
                 style: (feature) => ({
-                    fillColor: getProvinceColor(feature.properties.name), weight: 1, opacity: 1, color: 'white', fillOpacity: 0.7
+                    fillColor: getProvinceColor(feature.properties.name), weight: 1, opacity: 1, color: 'white', fillOpacity: 0.2
                 }),
                 onEachFeature: (feature, layer) => {
                     layer.bindTooltip(feature.properties.name, { permanent: true, direction: 'center', className: 'leaflet-tooltip-province' });
@@ -98,7 +103,7 @@
             }),
             district: L.geoJson(null, {
                 style: (feature) => ({
-                    fillColor: getProvinceColor(feature.properties.province), weight: 2, opacity: 0.8, color: 'white', fillOpacity: 0.7
+                    fillColor: getProvinceColor(feature.properties.province), weight: 2, opacity: 0.8, color: 'white', fillOpacity: 0.2
                 }),
                 onEachFeature: (feature, layer) => {
                     layer.bindTooltip(feature.properties.name, { permanent: true, direction: 'center', className: 'leaflet-tooltip-district' });
@@ -111,7 +116,7 @@
             }),
             locallevel: L.geoJson(null, {
                 style: (feature) => ({
-                    fillColor: getProvinceColor(feature.properties.province), weight: 1, opacity: 1, color: 'white', fillOpacity: 0.7
+                    fillColor: getProvinceColor(feature.properties.province), weight: 1, opacity: 1, color: 'white', fillOpacity: 0.2
                 }),
                 onEachFeature: (feature, layer) => {
                     layer.bindTooltip(feature.properties.name, { permanent: true, direction: 'center', className: 'leaflet-tooltip-locallevel' });
@@ -123,7 +128,7 @@
             }),
             ward: L.geoJson(null, {
                 style: (feature) => ({
-                    fillColor: getProvinceColor(feature.properties.province), weight: 1, opacity: 1, color: 'white', dashArray: '2, 5', fillOpacity: 0.7
+                    fillColor: getProvinceColor(feature.properties.province), weight: 1, opacity: 1, color: 'white', dashArray: '2, 5', fillOpacity: 0.2
                 }),
                 onEachFeature: (feature, layer) => {
                     layer.bindTooltip(feature.properties.name, { permanent: true, direction: 'center', className: 'leaflet-tooltip-ward' });
@@ -179,8 +184,12 @@
         function zoomToFeature(feature, nextLevel) {
             const bounds = L.geoJson(feature).getBounds();
             map.fitBounds(bounds);
+
+            // For local levels, pass the parent district name
+            const parentName = nextLevel === 'ward' ? feature.properties.District : null;
+
             updateBreadcrumb(nextLevel, feature.properties.name);
-            loadNextLevel(feature, nextLevel);
+            loadNextLevel(feature, nextLevel, parentName);
         }
 
         // Modify existing goToLevel function
@@ -207,7 +216,11 @@
 
             // Determine the target GeoJSON path based on the level and name
             const targetLevel = breadcrumbLevels[index];
-            const geoJsonPath = getGeoJsonPath(level, targetLevel.name);
+
+            // For local levels and wards, we need to include parent names
+            const parentName = level === 'ward' ? breadcrumbLevels[3].name : null;
+
+            const geoJsonPath = getGeoJsonPath(level, targetLevel.name, parentName);
 
             // Clear layers below the selected level
             clearLowerHierarchyLayers(level);
@@ -231,7 +244,10 @@
         function loadNextLevel(feature, level) {
             currentLevel = level;
 
-            const geoJsonPath = `${getGeoJsonPath(level, feature.properties.name)}`;
+            // For local levels, pass the parent district name
+            const parentName = level === 'ward' ? feature.properties.District : null;
+
+            const geoJsonPath = `${getGeoJsonPath(level, feature.properties.name, parentName)}`;
 
             fetch(geoJsonPath)
                 .then(response => response.json())
@@ -256,14 +272,14 @@
         }
 
         // Get the appropriate GeoJSON path for a given level and feature
-        function getGeoJsonPath(level, name) {
+        function getGeoJsonPath(level, name, parentName) {
             switch (level) {
                 case 'district':
                     return `${districtGeoJson}${name}.json`;
                 case 'locallevel':
                     return `${localLevelGeoJson}${name}.json`;
                 case 'ward':
-                    return `${wardGeoJson}${name}.json`;
+                    return `${wardGeoJson}${parentName}_${name}.json`;
                 default:
                     return provinceGeoJson;
             }
