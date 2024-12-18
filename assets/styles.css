@@ -44,31 +44,6 @@ body {
     text-align: right;
     font-size: 0.9em;
 }
-/* .breadcrumb {
-    padding: 10px;
-    background-color: #f9f9f9;
-    margin-bottom: 10px;
-    display: flex;
-    gap: 5px;
-    align-items: center;
-    overflow-x: auto;
-}
-
-.breadcrumb a {
-    text-decoration: none;
-    color: #007bff;
-    cursor: pointer;
-    white-space: nowrap;
-}
-
-.breadcrumb a:hover {
-    text-decoration: underline;
-}
-
-.breadcrumb span {
-    margin: 0 5px;
-    color: #777;
-} */
 
 .breadcrumb {
     position: absolute;
@@ -254,4 +229,9 @@ body {
 /* Ensure the button is above the map but below other controls */
 .leaflet-control-container {
     z-index: 1001;
+}
+
+.custom-popup .leaflet-popup-content {
+    max-height: 200px;
+    overflow-y: auto;
 }

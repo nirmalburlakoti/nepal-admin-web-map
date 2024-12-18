@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nepal Administrative Map</title>
-    <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.4.0/assets/admin-map-favicon.webp">
+    <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.5.0/assets/admin-map-favicon.webp">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.4.0/assets/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.5.0/assets/styles.css">
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src='https://unpkg.com/leaflet-omnivore@0.3.4/leaflet-omnivore.js'></script>
     <script src="https://cdn.jsdelivr.net/npm/tokml@0.4.0/tokml.js"></script>
+    <meta property="og:url" content="https://cinnamon.com.np">
+    <meta property="og:title" content="Nepal Administrative Map">
     <meta property="og:description" content="An interactive web-based geographical visualization of Nepal's administrative boundaries, allowing users to explore and download administrative divisions from provinces to wards using dynamic, color-coded maps with OpenStreetMap and Google satellite views.">
-    <meta property="og:image" content="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.4.0/assets/admin-map-favicon.png">
+    <meta property="og:image" content="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.5.0/assets/admin-map-favicon.png">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1024">
     <meta property="og:image:height" content="1024">
@@ -133,14 +136,11 @@
             "Google Satellite": googleSatellite
         };
 
-        // Add layer control
-        L.control.layers(baseMaps).addTo(map);
-
         // GeoJSON data for each level
-        const provinceGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.4.0/data/province.json";
-        const districtGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.4.0/data/districts/"; // Folder containing districts as individual GeoJSON files
-        const localLevelGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.4.0/data/locallevels/"; // Folder containing local levels
-        const wardGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.4.0/data/wards/"; // Folder containing wards
+        const provinceGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.5.0/data/province.json";
+        const districtGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.5.0/data/districts/"; // Folder containing districts as individual GeoJSON files
+        const localLevelGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.5.0/data/locallevels/"; // Folder containing local levels
+        const wardGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.5.0/data/wards/"; // Folder containing wards
 
         // Global state to track the current hierarchy level and selected region
         let currentLevel = 'province';
@@ -220,7 +220,6 @@
 
         // Update breadcrumb navigation
         function updateBreadcrumb(level, name) {
-            // Update the appropriate level in the breadcrumbLevels array
             switch (level) {
                 case 'province':
                     breadcrumbLevels[1] = { level: 'province', name: name };
@@ -366,7 +365,7 @@
             }
         }
 
-        // Updated downloadCurrentLevel function for KML styling
+        // Download current level division as kml
         function downloadCurrentLevel() {
             if (!currentGeoJson) {
                 alert("No data to download!");
@@ -380,7 +379,6 @@
                     ...feature, // Copy the existing feature
                     properties: {
                         ...feature.properties, // Retain existing properties
-                        // Add simplestyle-spec styling properties
                         stroke: "#ff0000",       // Red outline
                         "stroke-width": 2,      // 2px outline width
                         "stroke-opacity": 1,    // Fully opaque stroke
@@ -408,6 +406,99 @@
             link.click();
             document.body.removeChild(link);
         }
+
+        // Group KML layers individually with titles
+        const kmlFiles = [
+            { name: "Aadarsh Sailigadh WSP", file: "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.5.0/data/projects/Aadarsh Sailigadh WSP.kml" },
+            { name: "Barpak WSP", file: "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.5.0/data/projects/Barpak WSP.kml" }
+        ];
+
+        const kmlLayers = {};
+
+        kmlFiles.forEach(kml => {
+            const kmlLayer = omnivore.kml(kml.file)
+                .on('ready', function() {
+                    const layerGroup = this;
+                    layerGroup.eachLayer(function(layer) {
+                        // Styling for point layers
+                        if (layer instanceof L.Marker) {
+                            const latlng = layer.getLatLng();
+                            const circleMarker = L.circleMarker(latlng, {
+                                radius: 3,
+                                fillColor: '#FF0000',
+                                color: '#000',
+                                weight: 1,
+                                opacity: 1,
+                                fillOpacity: 0.8
+                            });
+
+                            // Explicitly copy ALL properties from original marker
+                            circleMarker.feature = JSON.parse(JSON.stringify(layer.feature));
+
+                            // Create popup content
+                            if (circleMarker.feature && circleMarker.feature.properties) {
+                                const popupContent = Object.entries(circleMarker.feature.properties)
+                                    .map(([key, value]) => `<strong>${key}:</strong> ${value}`)
+                                    .join('<br>');
+                                
+                                circleMarker.bindPopup(popupContent, {
+                                    maxWidth: 300,
+                                    className: 'custom-kml-popup'
+                                });
+                            }
+
+                            // Replace the original marker with circle marker
+                            layerGroup.removeLayer(layer);
+                            layerGroup.addLayer(circleMarker);
+                        }
+
+                        // Styling for line and polygon layers
+                        if (layer instanceof L.Path) {
+                            layer.setStyle({
+                                color: '#0000FF',
+                                weight: 2,
+                                opacity: 0.7,
+                                fillColor: '#0000FF',
+                                fillOpacity: 0.3
+                            });
+
+                            // Ensure popups work for lines and polygons too
+                            if (layer.feature && layer.feature.properties) {
+                                const popupContent = Object.entries(layer.feature.properties)
+                                    .map(([key, value]) => `<strong>${key}:</strong> ${value}`)
+                                    .join('<br>');
+                                
+                                layer.bindPopup(popupContent, {
+                                    maxWidth: 300,
+                                    className: 'custom-kml-popup'
+                                });
+                            }
+                        }
+                    });
+                });
+
+            // Add the KML layer to the layers control
+            kmlLayers[`${kml.name}`] = kmlLayer;
+        });
+
+        // Zoom to the bounds of the enabled KML layer
+        map.on('overlayadd', function(eventLayer) {
+            if (eventLayer.layer.getBounds) {
+                map.fitBounds(eventLayer.layer.getBounds());
+            }
+        });
+
+        const adminLayersGroup = new L.LayerGroup([
+            layers.province,
+            layers.district,
+            layers.locallevel,
+            layers.ward
+        ]);
+
+        L.control.layers(baseMaps, {
+            'Admin Boundaries': adminLayersGroup,
+            ...kmlLayers
+        }).addTo(map);
     </script>
 </body>
 </html>
