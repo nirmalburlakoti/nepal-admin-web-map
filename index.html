@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nepal Administrative Map</title>
-    <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.5.0/assets/admin-map-favicon.webp">
+    <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.6.0/assets/admin-map-favicon.webp">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.5.0/assets/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.6.0/assets/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src='https://unpkg.com/leaflet-omnivore@0.3.4/leaflet-omnivore.js'></script>
     <script src="https://cdn.jsdelivr.net/npm/tokml@0.4.0/tokml.js"></script>
     <meta property="og:url" content="https://cinnamon.com.np">
     <meta property="og:title" content="Nepal Administrative Map">
     <meta property="og:description" content="An interactive web-based geographical visualization of Nepal's administrative boundaries, allowing users to explore and download administrative divisions from provinces to wards using dynamic, color-coded maps with OpenStreetMap and Google satellite views.">
-    <meta property="og:image" content="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.5.0/assets/admin-map-favicon.png">
+    <meta property="og:image" content="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.6.0/assets/admin-map-favicon.png">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1024">
     <meta property="og:image:height" content="1024">
@@ -56,6 +57,8 @@
     </div>
 
     <div id="map"></div>
+
+    <div id="chart"></div>
 
     <script>
         // Get color and opacity control elements
@@ -137,10 +140,10 @@
         };
 
         // GeoJSON data for each level
-        const provinceGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.5.0/data/province.json";
-        const districtGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.5.0/data/districts/"; // Folder containing districts as individual GeoJSON files
-        const localLevelGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.5.0/data/locallevels/"; // Folder containing local levels
-        const wardGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.5.0/data/wards/"; // Folder containing wards
+        const provinceGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.6.0/data/province.json";
+        const districtGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.6.0/data/districts/"; // Folder containing districts as individual GeoJSON files
+        const localLevelGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.6.0/data/locallevels/"; // Folder containing local levels
+        const wardGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.6.0/data/wards/"; // Folder containing wards
 
         // Global state to track the current hierarchy level and selected region
         let currentLevel = 'province';
@@ -202,6 +205,46 @@
                 onEachFeature: (feature, layer) => {
                     layer.bindTooltip(feature.properties.name, { permanent: true, direction: 'center', className: 'leaflet-tooltip-locallevel' });
                     layer.on('click', () => {
+                        const provinceName = feature.properties.Province;
+                        const districtName = feature.properties.District;
+                        const localLevelName = feature.properties.name;
+
+                        // Match with JSON data
+                        const matchedData = jsonData.find(
+                            item =>
+                                item.Province.toLowerCase() === provinceName.toLowerCase() &&
+                                item.DISTRICT.toLowerCase() === districtName.toLowerCase() &&
+                                item.GaPa_NaPa.toLowerCase() === localLevelName.toLowerCase()
+                        );
+
+                        if (matchedData) {
+                            const { STATE_CODE, DISTRICT_CODE, MUNICIPALITY_CODE } = matchedData;
+                            const apiUrl = `https://censusapi.cbs.gov.np/api/v1/population/distribution/ward?province=${STATE_CODE}&district=${DISTRICT_CODE}&municipality=${MUNICIPALITY_CODE}`;
+
+                            // Fetch data from API
+                            fetch(apiUrl)
+                                .then(response => response.json())
+                                .then(data => {
+                                    if (data.success) {
+                                        const maleData = data.data.series.find(series => series.name === 'male').data;
+                                        const femaleData = data.data.series.find(series => series.name === 'female').data;
+
+                                        // Plot chart
+                                        renderChart(maleData, femaleData);
+                                    } else {
+                                        console.error('API returned an error:', data.message);
+                                    }
+                                })
+                                .catch(error => {
+                                    console.error('Error fetching data:', error);
+                                });
+                        } else {
+                            console.error('No matching data found for:', {
+                                provinceName,
+                                districtName,
+                                localLevelName
+                            });
+                        }
                         clearSameLevelLayers('ward');
                         zoomToFeature(feature, 'ward');
                     });
@@ -409,8 +452,8 @@
 
         // Group KML layers individually with titles
         const kmlFiles = [
-            { name: "Aadarsh Sailigadh WSP", file: "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.5.0/data/projects/Aadarsh Sailigadh WSP.kml" },
-            { name: "Barpak WSP", file: "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.5.0/data/projects/Barpak WSP.kml" }
+            { name: "Aadarsh Sailigadh WSP", file: "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.6.0/data/projects/Aadarsh Sailigadh WSP.kml" },
+            { name: "Barpak WSP", file: "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.6.0/data/projects/Barpak WSP.kml" }
         ];
 
         const kmlLayers = {};
@@ -496,9 +539,98 @@
         ]);
 
         L.control.layers(baseMaps, {
-            'Admin Boundaries': adminLayersGroup,
+            'All Admin Boundaries': adminLayersGroup,
             ...kmlLayers
         }).addTo(map);
+
+        let jsonData = [];
+
+        // Fetch JSON data from an external file
+        fetch('data/locallevelcodes.json') // Adjust the path as needed
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`Failed to fetch JSON file: ${response.statusText}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                jsonData = data;
+            })
+            .catch(error => {
+                console.error('Error loading JSON file:', error);
+            });
+
+        function renderChart(maleData, femaleData) {
+            const options = {
+                chart: {
+                    type: 'bar',
+                    height: 350
+                },
+                series: [
+                    {
+                        name: 'Male',
+                        data: maleData
+                    },
+                    {
+                        name: 'Female',
+                        data: femaleData
+                    }
+                ],
+                xaxis: {
+                    categories: Array.from({ length: maleData.length }, (_, i) => `Ward ${i + 1}`)
+                },
+                title: {
+                    text: 'Ward-wise Population',
+                    align: 'center',
+                    style:{
+                        fontSize: '25px'
+                    }
+                },
+                plotOptions: {
+                    bar: {
+                    dataLabels: {
+                        orientation: 'vertical',
+                        position: 'top' // bottom/center/top
+                    }
+                    }
+                },
+                dataLabels: {
+                    style: {
+                        colors: ['#000000'],
+                        fontWeight: ['400']
+                    },
+                    offsetY: 5, // play with this value
+                }
+            };
+
+            const chartDiv = document.getElementById('chart');
+            document.getElementById("map").style.height = "90vh";
+            document.getElementById("map-controls").style.bottom = "80px";
+            document.getElementById("downloadButton").style.bottom = "80px";
+            chartDiv.style.display = 'block'; // Make chart visible
+            const chart = new ApexCharts(chartDiv, options);
+            chart.render();
+
+            // Store the chart instance globally to clear it later
+            window.currentChart = chart;
+        }
+
+        // Add event listener to the map to hide the chart on click
+        document.getElementById('map').addEventListener('click', () => {
+            const chartDiv = document.getElementById('chart');
+
+            // Check if a chart is rendered and remove it
+            if (window.currentChart) {
+                window.currentChart.destroy(); // Destroy the chart instance
+                window.currentChart = null; // Reset the chart reference
+            }
+
+            // Hide the chart container
+            chartDiv.style.display = 'none';
+            document.getElementById("map").style.height = "100vh";
+            document.getElementById("map-controls").style.bottom = "20px";
+            document.getElementById("downloadButton").style.bottom = "20px";
+        });
     </script>
 </body>
 </html>

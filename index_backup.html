@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nepal Administrative Map</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.5.0/assets/admin-map-favicon.webp">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.5.0/assets/styles.css">
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src='https://unpkg.com/leaflet-omnivore@0.3.4/leaflet-omnivore.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/tokml@0.4.0/tokml.js"></script>
+    <meta property="og:url" content="https://cinnamon.com.np">
+    <meta property="og:title" content="Nepal Administrative Map">
+    <meta property="og:description" content="An interactive web-based geographical visualization of Nepal's administrative boundaries, allowing users to explore and download administrative divisions from provinces to wards using dynamic, color-coded maps with OpenStreetMap and Google satellite views.">
+    <meta property="og:image" content="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.5.0/assets/admin-map-favicon.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="1024">
+</head>
+<body>
+    <div class="breadcrumb flat" id="breadcrumb">
+        <a onclick="goToLevel('nepal')">Nepal</a>
+    </div>
+    <button id="downloadButton" onclick="downloadCurrentLevel()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+        </svg>
+        Download KML
+    </button>
+
+    <div id="map-controls">
+        <div class="control-group color-group">
+            <label id="color-label" for="color-picker">Stroke Color:</label>
+            <input 
+                type="color" 
+                id="color-picker" 
+                value="#3498db"
+            >
+            <output id="color-value">#3498db</output>
+        </div>
+        <div class="control-group">
+            <label id="opacity-label" for="opacity-slider">Layer Opacity:</label>
+            <input 
+                type="range" 
+                id="opacity-slider" 
+                min="0" 
+                max="1" 
+                step="0.01" 
+                value="0.3"
+            >
+            <output id="opacity-value">0.30</output>
+        </div>
+    </div>
+
+    <div id="map"></div>
+
+    <script>
+        // Get color and opacity control elements
+        const colorPicker = document.getElementById('color-picker');
+        const colorValue = document.getElementById('color-value');
+        const opacitySlider = document.getElementById('opacity-slider');
+        const opacityValue = document.getElementById('opacity-value');
+
+        // Function to update layer color
+        function updateLayerColor(color) {
+            // Update color value display
+            colorValue.textContent = color;
+
+            // Update each layer's style
+            Object.values(layers).forEach(layer => {
+                layer.eachLayer(function(featureLayer) {
+                    const currentStyle = featureLayer.options.style 
+                        ? featureLayer.options.style(featureLayer.feature) 
+                        : {};
+                    
+                    featureLayer.setStyle({
+                        ...currentStyle,
+                        color: color
+                    });
+                });
+            });
+        }
+
+        // Function to update layer opacity
+        function updateLayerOpacity(opacity) {
+            // Round to 2 decimal places for display
+            const roundedOpacity = Number(opacity).toFixed(2);
+            opacityValue.textContent = roundedOpacity;
+
+            // Update each layer's style
+            Object.values(layers).forEach(layer => {
+                layer.eachLayer(function(featureLayer) {
+                    const currentStyle = featureLayer.options.style 
+                        ? featureLayer.options.style(featureLayer.feature) 
+                        : {};
+                    
+                    featureLayer.setStyle({
+                        ...currentStyle,
+                        fillOpacity: opacity
+                    });
+                });
+            });
+        }
+
+        // Add event listeners to color picker and opacity slider
+        colorPicker.addEventListener('input', function() {
+            updateLayerColor(this.value);
+        });
+
+        opacitySlider.addEventListener('input', function() {
+            updateLayerOpacity(this.value);
+        });
+
+        const map = L.map('map').setView([28.3949, 84.1240], 7); // Nepal's center
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 18,
+        }).addTo(map);
+
+        // Add Google Maps basemap (requires API key)
+        var googleMaps = L.tileLayer('https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
+            attribution: '&copy; <a href="https://www.google.com/maps">Google Maps</a>'
+        });
+
+        // Add Google Satellite basemap (requires API key)
+        var googleSatellite = L.tileLayer('https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
+            attribution: '&copy; <a href="https://www.google.com/maps">Google Satellite</a>'
+        });
+
+        // Layer control setup
+        var baseMaps = {
+            "OpenStreetMap": L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'),
+            "Google Maps": googleMaps,
+            "Google Satellite": googleSatellite
+        };
+
+        // GeoJSON data for each level
+        const provinceGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.5.0/data/province.json";
+        const districtGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.5.0/data/districts/"; // Folder containing districts as individual GeoJSON files
+        const localLevelGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.5.0/data/locallevels/"; // Folder containing local levels
+        const wardGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.5.0/data/wards/"; // Folder containing wards
+
+        // Global state to track the current hierarchy level and selected region
+        let currentLevel = 'province';
+        let currentGeoJson = null;
+
+        // Updated breadcrumb navigation logic
+        let breadcrumbLevels = [
+            { level: 'nepal', name: 'Nepal' },
+            { level: 'province', name: null },
+            { level: 'district', name: null },
+            { level: 'locallevel', name: null },
+            { level: 'ward', name: null}
+        ];
+
+        // Colors for each province and its hierarchy
+        const provinceColors = {};
+
+        // Function to get or assign a color for a province
+        function getProvinceColor(name) {
+            if (!provinceColors[name]) {
+                provinceColors[name] = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+            }
+            return provinceColors[name];
+        }
+
+        // Feature layers for each level
+        const layers = {
+            province: L.geoJson(null, {
+                style: (feature) => ({
+                    fillColor: getProvinceColor(feature.properties.name), weight: 1, opacity: 1, color: colorPicker.value, fillOpacity: opacitySlider.value
+                }),
+                onEachFeature: (feature, layer) => {
+                    layer.bindTooltip(feature.properties.name, { permanent: true, direction: 'center', className: 'leaflet-tooltip-province' });
+                    layer.on('click', () => {
+                        clearSameLevelLayers('district');
+                        clearSameLevelLayers('locallevel');
+                        clearSameLevelLayers('ward');
+                        zoomToFeature(feature, 'district');
+                    });
+                }
+            }),
+            district: L.geoJson(null, {
+                style: (feature) => ({
+                    fillColor: getProvinceColor(feature.properties.province), weight: 2, opacity: 0.8, color: colorPicker.value, fillOpacity: opacitySlider.value
+                }),
+                onEachFeature: (feature, layer) => {
+                    layer.bindTooltip(feature.properties.name, { permanent: true, direction: 'center', className: 'leaflet-tooltip-district' });
+                    layer.on('click', () => {
+                        clearSameLevelLayers('locallevel');
+                        clearSameLevelLayers('ward');
+                        zoomToFeature(feature, 'locallevel');
+                    });
+                }
+            }),
+            locallevel: L.geoJson(null, {
+                style: (feature) => ({
+                    fillColor: getProvinceColor(feature.properties.province), weight: 1, opacity: 1, color: colorPicker.value, fillOpacity: opacitySlider.value
+                }),
+                onEachFeature: (feature, layer) => {
+                    layer.bindTooltip(feature.properties.name, { permanent: true, direction: 'center', className: 'leaflet-tooltip-locallevel' });
+                    layer.on('click', () => {
+                        clearSameLevelLayers('ward');
+                        zoomToFeature(feature, 'ward');
+                    });
+                }
+            }),
+            ward: L.geoJson(null, {
+                style: (feature) => ({
+                    fillColor: getProvinceColor(feature.properties.province), weight: 1, opacity: 1, color: colorPicker.value, dashArray: '2, 5', fillOpacity: opacitySlider.value
+                }),
+                onEachFeature: (feature, layer) => {
+                    layer.bindTooltip(feature.properties.name, { permanent: true, direction: 'center', className: 'leaflet-tooltip-ward' });
+                    layer.bindPopup(`Ward: ${feature.properties.name}`);
+                }
+            }),
+        };
+
+        // Update breadcrumb navigation
+        function updateBreadcrumb(level, name) {
+            switch (level) {
+                case 'province':
+                    breadcrumbLevels[1] = { level: 'province', name: name };
+                    // Reset lower levels
+                    breadcrumbLevels[2] = { level: 'district', name: null };
+                    breadcrumbLevels[3] = { level: 'locallevel', name: null };
+                    breadcrumbLevels[4] = { level: 'ward', name: null };
+                    break;
+                case 'district':
+                    breadcrumbLevels[2] = { level: 'district', name: name };
+                    breadcrumbLevels[3] = { level: 'locallevel', name: null };
+                    breadcrumbLevels[4] = { level: 'ward', name: null };
+                    break;
+                case 'locallevel':
+                    breadcrumbLevels[3] = { level: 'locallevel', name: name };
+                    breadcrumbLevels[4] = { level: 'ward', name: null };
+                    break;
+                case 'ward':
+                    breadcrumbLevels[4] = { level: 'ward', name: name };
+                    break;
+            }
+
+            // Render breadcrumb
+            const breadcrumb = document.getElementById('breadcrumb');
+            breadcrumb.innerHTML = breadcrumbLevels.map((level, idx) => {
+                if (idx === 0 || level.name) {
+                    return `<a onclick="goToLevel('${level.level}', ${idx})">${level.level === 'nepal' ? 'Nepal' : level.name}</a>`;
+                }
+                return '';
+            }).join('');
+        }
+
+        // Load initial province data
+        fetch(provinceGeoJson)
+            .then(response => response.json())
+            .then(data => {
+                currentGeoJson = data;
+                layers.province.addData(data).addTo(map);
+            });
+
+        // Zoom to a feature and load the next hierarchy level
+        function zoomToFeature(feature, nextLevel) {
+            const bounds = L.geoJson(feature).getBounds();
+            map.fitBounds(bounds);
+
+            // For local levels, pass the parent district name
+            const parentName = nextLevel === 'ward' ? feature.properties.District : null;
+
+            updateBreadcrumb(nextLevel, feature.properties.name);
+            loadNextLevel(feature, nextLevel, parentName);
+        }
+
+        // Modify existing goToLevel function
+        function goToLevel(level, index = null) {
+            // If going to 'nepal', reset to province level
+            if (level === 'nepal') {
+                currentLevel = 'province';
+                breadcrumbLevels[1] = { level: 'province', name: null };
+                breadcrumbLevels[2] = { level: 'district', name: null };
+                breadcrumbLevels[3] = { level: 'locallevel', name: null };
+                breadcrumbLevels[4] = { level: 'ward', name: null };
+
+                clearLowerHierarchyLayers('province');
+                fetch(provinceGeoJson)
+                    .then(response => response.json())
+                    .then(data => {
+                        currentGeoJson = data;
+                        layers.province.clearLayers().addData(data).addTo(map);
+                        map.setView([28.3949, 84.1240], 7); // Reset to Nepal's center
+                        updateBreadcrumb('province', null);
+                    });
+                return;
+            }
+
+            // Determine the target GeoJSON path based on the level and name
+            const targetLevel = breadcrumbLevels[index];
+
+            // For local levels and wards, we need to include parent names
+            const parentName = level === 'ward' ? breadcrumbLevels[3].name : null;
+
+            const geoJsonPath = getGeoJsonPath(level, targetLevel.name, parentName);
+
+            // Clear layers below the selected level
+            clearLowerHierarchyLayers(level);
+
+            fetch(geoJsonPath)
+                .then(response => response.json())
+                .then(data => {
+                    currentGeoJson = data;
+                    layers[level].clearLayers().addData(data).addTo(map);
+                    
+                    // Fit bounds to the data
+                    const bounds = layers[level].getBounds();
+                    map.fitBounds(bounds);
+
+                    // Update current level
+                    currentLevel = level;
+                });
+        }
+
+        // Load the next level of administrative boundaries
+        function loadNextLevel(feature, level) {
+            currentLevel = level;
+
+            // For local levels, pass the parent district name
+            const parentName = level === 'ward' ? feature.properties.District : null;
+
+            const geoJsonPath = `${getGeoJsonPath(level, feature.properties.name, parentName)}`;
+
+            fetch(geoJsonPath)
+                .then(response => response.json())
+                .then(data => {
+                    currentGeoJson = data;
+                    layers[level].addData(data).addTo(map);
+                });
+        }
+
+        // Clear only lower hierarchy layers
+        function clearLowerHierarchyLayers(level) {
+            const levels = ['province', 'district', 'locallevel', 'ward'];
+            const startIndex = levels.indexOf(level) + 1;
+            for (let i = startIndex; i < levels.length; i++) {
+                layers[levels[i]].clearLayers();
+            }
+        }
+
+        // Clear layers of the same hierarchy level
+        function clearSameLevelLayers(level) {
+            layers[level].clearLayers();
+        }
+
+        // Get the appropriate GeoJSON path for a given level and feature
+        function getGeoJsonPath(level, name, parentName) {
+            switch (level) {
+                case 'district':
+                    return `${districtGeoJson}${name}.json`;
+                case 'locallevel':
+                    return `${localLevelGeoJson}${name}.json`;
+                case 'ward':
+                    return `${wardGeoJson}${parentName}_${name}.json`;
+                default:
+                    return provinceGeoJson;
+            }
+        }
+
+        // Download current level division as kml
+        function downloadCurrentLevel() {
+            if (!currentGeoJson) {
+                alert("No data to download!");
+                return;
+            }
+
+            // Add simplestyle-spec properties to GeoJSON features
+            const styledGeoJson = {
+                ...currentGeoJson, // Copy the existing GeoJSON object
+                features: currentGeoJson.features.map(feature => ({
+                    ...feature, // Copy the existing feature
+                    properties: {
+                        ...feature.properties, // Retain existing properties
+                        stroke: "#ff0000",       // Red outline
+                        "stroke-width": 2,      // 2px outline width
+                        "stroke-opacity": 1,    // Fully opaque stroke
+                        fill: "#00ff00",        // Green fill
+                        "fill-opacity": 0.3     // 50% opacity for the fill
+                    }
+                }))
+            };
+
+            // Convert GeoJSON to KML with custom styling for outlines
+            const styledKml = tokml(styledGeoJson, {
+                name: 'name', // Use the 'name' property for the KML name
+                documentName: `${currentLevel} Boundary`,
+                documentDescription: `KML file for ${currentLevel} level boundaries`,
+                simplestyle: true
+            });
+
+            const blob = new Blob([styledKml], { type: "application/vnd.google-earth.kml+xml" });
+            const url = URL.createObjectURL(blob);
+
+            const link = document.createElement("a");
+            link.href = url;
+            link.download = `${currentLevel}_boundaries.kml`;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        // Group KML layers individually with titles
+        const kmlFiles = [
+            { name: "Aadarsh Sailigadh WSP", file: "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.5.0/data/projects/Aadarsh Sailigadh WSP.kml" },
+            { name: "Barpak WSP", file: "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.5.0/data/projects/Barpak WSP.kml" }
+        ];
+
+        const kmlLayers = {};
+
+        kmlFiles.forEach(kml => {
+            const kmlLayer = omnivore.kml(kml.file)
+                .on('ready', function() {
+                    const layerGroup = this;
+                    layerGroup.eachLayer(function(layer) {
+                        // Styling for point layers
+                        if (layer instanceof L.Marker) {
+                            const latlng = layer.getLatLng();
+                            const circleMarker = L.circleMarker(latlng, {
+                                radius: 3,
+                                fillColor: '#FF0000',
+                                color: '#000',
+                                weight: 1,
+                                opacity: 1,
+                                fillOpacity: 0.8
+                            });
+
+                            // Explicitly copy ALL properties from original marker
+                            circleMarker.feature = JSON.parse(JSON.stringify(layer.feature));
+
+                            // Create popup content
+                            if (circleMarker.feature && circleMarker.feature.properties) {
+                                const popupContent = Object.entries(circleMarker.feature.properties)
+                                    .map(([key, value]) => `<strong>${key}:</strong> ${value}`)
+                                    .join('<br>');
+                                
+                                circleMarker.bindPopup(popupContent, {
+                                    maxWidth: 300,
+                                    className: 'custom-kml-popup'
+                                });
+                            }
+
+                            // Replace the original marker with circle marker
+                            layerGroup.removeLayer(layer);
+                            layerGroup.addLayer(circleMarker);
+                        }
+
+                        // Styling for line and polygon layers
+                        if (layer instanceof L.Path) {
+                            layer.setStyle({
+                                color: '#0000FF',
+                                weight: 2,
+                                opacity: 0.7,
+                                fillColor: '#0000FF',
+                                fillOpacity: 0.3
+                            });
+
+                            // Ensure popups work for lines and polygons too
+                            if (layer.feature && layer.feature.properties) {
+                                const popupContent = Object.entries(layer.feature.properties)
+                                    .map(([key, value]) => `<strong>${key}:</strong> ${value}`)
+                                    .join('<br>');
+                                
+                                layer.bindPopup(popupContent, {
+                                    maxWidth: 300,
+                                    className: 'custom-kml-popup'
+                                });
+                            }
+                        }
+                    });
+                });
+
+            // Add the KML layer to the layers control
+            kmlLayers[`${kml.name}`] = kmlLayer;
+        });
+
+        // Zoom to the bounds of the enabled KML layer
+        map.on('overlayadd', function(eventLayer) {
+            if (eventLayer.layer.getBounds) {
+                map.fitBounds(eventLayer.layer.getBounds());
+            }
+        });
+
+        const adminLayersGroup = new L.LayerGroup([
+            layers.province,
+            layers.district,
+            layers.locallevel,
+            layers.ward
+        ]);
+
+        L.control.layers(baseMaps, {
+            'All Admin Boundaries': adminLayersGroup,
+            ...kmlLayers
+        }).addTo(map);
+    </script>
+</body>
+</html>

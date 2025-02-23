@@ -1,0 +1,6833 @@
+[
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "TAPLEJUNG",
+        "GaPa_NaPa": "Aathrai Tribeni",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 1,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "TAPLEJUNG",
+        "GaPa_NaPa": "Maiwakhola",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 1,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "TAPLEJUNG",
+        "GaPa_NaPa": "Meringden",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 1,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "TAPLEJUNG",
+        "GaPa_NaPa": "Mikwakhola",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 1,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "TAPLEJUNG",
+        "GaPa_NaPa": "Phaktanglung",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 1,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "TAPLEJUNG",
+        "GaPa_NaPa": "Phungling",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 1,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "TAPLEJUNG",
+        "GaPa_NaPa": "Sidingwa",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 1,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "TAPLEJUNG",
+        "GaPa_NaPa": "Sirijangha",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 1,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "TAPLEJUNG",
+        "GaPa_NaPa": "Pathivara Yangwarak",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 1,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "PANCHTHAR",
+        "GaPa_NaPa": "Phalelung",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 9,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "PANCHTHAR",
+        "GaPa_NaPa": "Falgunanda",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 9,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "PANCHTHAR",
+        "GaPa_NaPa": "Hilihang",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 9,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "PANCHTHAR",
+        "GaPa_NaPa": "Kummayak",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 9,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "PANCHTHAR",
+        "GaPa_NaPa": "Miklajung",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 9,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "PANCHTHAR",
+        "GaPa_NaPa": "Phidim",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 9,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "PANCHTHAR",
+        "GaPa_NaPa": "Tumbewa",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 9,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "PANCHTHAR",
+        "GaPa_NaPa": "Yangwarak",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 9,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "ILAM",
+        "GaPa_NaPa": "Chulachuli",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 10,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "ILAM",
+        "GaPa_NaPa": "Deumai",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 10,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "ILAM",
+        "GaPa_NaPa": "Phakphokathum",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 10,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "ILAM",
+        "GaPa_NaPa": "Ilam",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 10,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "ILAM",
+        "GaPa_NaPa": "Mai",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 10,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "ILAM",
+        "GaPa_NaPa": "Maijogmai",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 10,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "ILAM",
+        "GaPa_NaPa": "Mangsebung",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 10,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "ILAM",
+        "GaPa_NaPa": "Rong",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 10,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "ILAM",
+        "GaPa_NaPa": "Sandakpur",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 10,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "ILAM",
+        "GaPa_NaPa": "Suryodaya",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 10,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "JHAPA",
+        "GaPa_NaPa": "Arjundhara",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 11,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "JHAPA",
+        "GaPa_NaPa": "Barhadashi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 11,
+        "MUNICIPALITY_CODE": 11
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "JHAPA",
+        "GaPa_NaPa": "Bhadrapur",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 11,
+        "MUNICIPALITY_CODE": 14
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "JHAPA",
+        "GaPa_NaPa": "Birtamod",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 11,
+        "MUNICIPALITY_CODE": 12
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "JHAPA",
+        "GaPa_NaPa": "Buddhashanti",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 11,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "JHAPA",
+        "GaPa_NaPa": "Damak",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 11,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "JHAPA",
+        "GaPa_NaPa": "Gauradaha",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 11,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "JHAPA",
+        "GaPa_NaPa": "Gauriganj",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 11,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "JHAPA",
+        "GaPa_NaPa": "Haldibari",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 11,
+        "MUNICIPALITY_CODE": 13
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "JHAPA",
+        "GaPa_NaPa": "Jhapa",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 11,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "JHAPA",
+        "GaPa_NaPa": "Kachankawal",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 11,
+        "MUNICIPALITY_CODE": 15
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "JHAPA",
+        "GaPa_NaPa": "Kamal",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 11,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "JHAPA",
+        "GaPa_NaPa": "Kanakai",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 11,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "JHAPA",
+        "GaPa_NaPa": "Mechinagar",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 11,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "JHAPA",
+        "GaPa_NaPa": "Shivasatakshi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 11,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "MORANG",
+        "GaPa_NaPa": "Belbari",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 12,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "MORANG",
+        "GaPa_NaPa": "Biratnagar",
+        "Type_GN": "Mahanagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 12,
+        "MUNICIPALITY_CODE": 14
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "MORANG",
+        "GaPa_NaPa": "Budhiganga",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 12,
+        "MUNICIPALITY_CODE": 13
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "MORANG",
+        "GaPa_NaPa": "Dhanpalthan",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 12,
+        "MUNICIPALITY_CODE": 16
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "MORANG",
+        "GaPa_NaPa": "Gramthan",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 12,
+        "MUNICIPALITY_CODE": 12
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "MORANG",
+        "GaPa_NaPa": "Jahada",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 12,
+        "MUNICIPALITY_CODE": 17
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "MORANG",
+        "GaPa_NaPa": "Kanepokhari",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 12,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "MORANG",
+        "GaPa_NaPa": "Katahari",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 12,
+        "MUNICIPALITY_CODE": 15
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "MORANG",
+        "GaPa_NaPa": "Kerabari",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 12,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "MORANG",
+        "GaPa_NaPa": "Letang",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 12,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "MORANG",
+        "GaPa_NaPa": "Miklajung",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 12,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "MORANG",
+        "GaPa_NaPa": "Pathari Shanishchare",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 12,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "MORANG",
+        "GaPa_NaPa": "Rangeli",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 12,
+        "MUNICIPALITY_CODE": 11
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "MORANG",
+        "GaPa_NaPa": "Ratuwamai",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 12,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "MORANG",
+        "GaPa_NaPa": "Sundarharaicha",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 12,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "MORANG",
+        "GaPa_NaPa": "Sunwarshi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 12,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "MORANG",
+        "GaPa_NaPa": "Urlabari",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 12,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SUNSARI",
+        "GaPa_NaPa": "Barahachhetra",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 13,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SUNSARI",
+        "GaPa_NaPa": "Barju",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 13,
+        "MUNICIPALITY_CODE": 12
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SUNSARI",
+        "GaPa_NaPa": "Bhokraha Narsingh",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 13,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SUNSARI",
+        "GaPa_NaPa": "Dewangunj",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 13,
+        "MUNICIPALITY_CODE": 11
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SUNSARI",
+        "GaPa_NaPa": "Dharan",
+        "Type_GN": "Upamahanagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 13,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SUNSARI",
+        "GaPa_NaPa": "Duhabi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 13,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SUNSARI",
+        "GaPa_NaPa": "Gadhi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 13,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SUNSARI",
+        "GaPa_NaPa": "Harinagar",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 13,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SUNSARI",
+        "GaPa_NaPa": "Inaruwa",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 13,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SUNSARI",
+        "GaPa_NaPa": "Itahari",
+        "Type_GN": "Upamahanagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 13,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SUNSARI",
+        "GaPa_NaPa": "Koshi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 13,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SUNSARI",
+        "GaPa_NaPa": "Ramdhuni",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 13,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SUNSARI",
+        "GaPa_NaPa": "Koshi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 13,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "DHANKUTA",
+        "GaPa_NaPa": "Chaubise",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 7,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "DHANKUTA",
+        "GaPa_NaPa": "Chhathar Jorpati",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 7,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "DHANKUTA",
+        "GaPa_NaPa": "Dhankuta",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 7,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "DHANKUTA",
+        "GaPa_NaPa": "Shahidbhumi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 7,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "DHANKUTA",
+        "GaPa_NaPa": "Mahalaxmi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 7,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "DHANKUTA",
+        "GaPa_NaPa": "Pakhribas",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 7,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "DHANKUTA",
+        "GaPa_NaPa": "Sangurigadhi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 7,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "TERHATHUM",
+        "GaPa_NaPa": "Aathrai",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 8,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "TERHATHUM",
+        "GaPa_NaPa": "Chhathar",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 8,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "TERHATHUM",
+        "GaPa_NaPa": "Laligurans",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 8,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "TERHATHUM",
+        "GaPa_NaPa": "Menchhayayem",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 8,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "TERHATHUM",
+        "GaPa_NaPa": "Myanglung",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 8,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "TERHATHUM",
+        "GaPa_NaPa": "Phedap",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 8,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SANKHUWASABHA",
+        "GaPa_NaPa": "Bhotkhola",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 2,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SANKHUWASABHA",
+        "GaPa_NaPa": "Chainpur",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 2,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SANKHUWASABHA",
+        "GaPa_NaPa": "Chichila",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 2,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SANKHUWASABHA",
+        "GaPa_NaPa": "Dharmadevi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 2,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SANKHUWASABHA",
+        "GaPa_NaPa": "Khandbari",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 2,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SANKHUWASABHA",
+        "GaPa_NaPa": "Madi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 2,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SANKHUWASABHA",
+        "GaPa_NaPa": "Makalu",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 2,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SANKHUWASABHA",
+        "GaPa_NaPa": "Panchkhapan",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 2,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SANKHUWASABHA",
+        "GaPa_NaPa": "Sabhapokhari",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 2,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SANKHUWASABHA",
+        "GaPa_NaPa": "Silichong",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 2,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "BHOJPUR",
+        "GaPa_NaPa": "Aamchowk",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 6,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "BHOJPUR",
+        "GaPa_NaPa": "Arun",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 6,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "BHOJPUR",
+        "GaPa_NaPa": "Bhojpur",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 6,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "BHOJPUR",
+        "GaPa_NaPa": "Hatuwagadhi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 6,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "BHOJPUR",
+        "GaPa_NaPa": "Pauwadungma",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 6,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "BHOJPUR",
+        "GaPa_NaPa": "Ramprasad Rai",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 6,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "BHOJPUR",
+        "GaPa_NaPa": "Salpasilichho",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 6,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "BHOJPUR",
+        "GaPa_NaPa": "Shadananda",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 6,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "BHOJPUR",
+        "GaPa_NaPa": "Temkemaiyung",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 6,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SOLUKHUMBU",
+        "GaPa_NaPa": "Thulung Dudhkoshi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 3,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SOLUKHUMBU",
+        "GaPa_NaPa": "Mapya Dudhkoshi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 3,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SOLUKHUMBU",
+        "GaPa_NaPa": "Khumbu Pasang Lhamu",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 3,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SOLUKHUMBU",
+        "GaPa_NaPa": "Likhu Pike",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 3,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SOLUKHUMBU",
+        "GaPa_NaPa": "Mahakulung",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 3,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SOLUKHUMBU",
+        "GaPa_NaPa": "Nechasalyan",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 3,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SOLUKHUMBU",
+        "GaPa_NaPa": "Soludhudhakunda",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 3,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "SOLUKHUMBU",
+        "GaPa_NaPa": "Sotang",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 3,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "OKHALDHUNGA",
+        "GaPa_NaPa": "Champadevi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 4,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "OKHALDHUNGA",
+        "GaPa_NaPa": "Chishankhugadhi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 4,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "OKHALDHUNGA",
+        "GaPa_NaPa": "Khijidemba",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 4,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "OKHALDHUNGA",
+        "GaPa_NaPa": "Likhu",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 4,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "OKHALDHUNGA",
+        "GaPa_NaPa": "Manebhanjyang",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 4,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "OKHALDHUNGA",
+        "GaPa_NaPa": "Molung",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 4,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "OKHALDHUNGA",
+        "GaPa_NaPa": "Siddhicharan",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 4,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "OKHALDHUNGA",
+        "GaPa_NaPa": "Sunkoshi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 4,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "KHOTANG",
+        "GaPa_NaPa": "Aiselukharka",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 5,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "KHOTANG",
+        "GaPa_NaPa": "Barahapokhari",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 5,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "KHOTANG",
+        "GaPa_NaPa": "Diprung Chuichumma",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 5,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "KHOTANG",
+        "GaPa_NaPa": "Halesi Tuwachung",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 5,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "KHOTANG",
+        "GaPa_NaPa": "Jantedhunga",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 5,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "KHOTANG",
+        "GaPa_NaPa": "Kepilasgadhi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 5,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "KHOTANG",
+        "GaPa_NaPa": "Khotehang",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 5,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "KHOTANG",
+        "GaPa_NaPa": "Rawa Besi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 5,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "KHOTANG",
+        "GaPa_NaPa": "Diktel Rupakot Majhuwagadhi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 5,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "KHOTANG",
+        "GaPa_NaPa": "Sakela",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 5,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "UDAYAPUR",
+        "GaPa_NaPa": "Belaka",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 14,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "UDAYAPUR",
+        "GaPa_NaPa": "Chaudandigadhi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 14,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "UDAYAPUR",
+        "GaPa_NaPa": "Katari",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 14,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "UDAYAPUR",
+        "GaPa_NaPa": "Rautamai",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 14,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "UDAYAPUR",
+        "GaPa_NaPa": "Limchungbung",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 14,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "UDAYAPUR",
+        "GaPa_NaPa": "Tapli",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 14,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "UDAYAPUR",
+        "GaPa_NaPa": "Triyuga",
+        "Type_GN": "Nagarpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 14,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "UDAYAPUR",
+        "GaPa_NaPa": "Udayapurgadhi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 14,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 1,
+        "DISTRICT": "UDAYAPUR",
+        "GaPa_NaPa": "Udayapurgadhi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Koshi Pradesh",
+        "DISTRICT_CODE": 14,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SAPTARI",
+        "GaPa_NaPa": "Agnisair Krishna Sabaran",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 15,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SAPTARI",
+        "GaPa_NaPa": "Balan-Bihul",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 15,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SAPTARI",
+        "GaPa_NaPa": "Rajgadh",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 15,
+        "MUNICIPALITY_CODE": 11
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SAPTARI",
+        "GaPa_NaPa": "Bishnupur",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 15,
+        "MUNICIPALITY_CODE": 12
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SAPTARI",
+        "GaPa_NaPa": "Bodebarsain",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 15,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SAPTARI",
+        "GaPa_NaPa": "Chhinnamasta",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 15,
+        "MUNICIPALITY_CODE": 18
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SAPTARI",
+        "GaPa_NaPa": "Dakneshwori",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 15,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SAPTARI",
+        "GaPa_NaPa": "Hanumannagar Kankalini",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 15,
+        "MUNICIPALITY_CODE": 16
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SAPTARI",
+        "GaPa_NaPa": "Kanchanrup",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 15,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SAPTARI",
+        "GaPa_NaPa": "Khadak",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 15,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SAPTARI",
+        "GaPa_NaPa": "Mahadewa",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 15,
+        "MUNICIPALITY_CODE": 14
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SAPTARI",
+        "GaPa_NaPa": "Rajbiraj",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 15,
+        "MUNICIPALITY_CODE": 13
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SAPTARI",
+        "GaPa_NaPa": "Rupani",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 15,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SAPTARI",
+        "GaPa_NaPa": "Saptakoshi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 15,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SAPTARI",
+        "GaPa_NaPa": "Shambhunath",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 15,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SAPTARI",
+        "GaPa_NaPa": "Surunga",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 15,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SAPTARI",
+        "GaPa_NaPa": "Tilathi Koiladi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 15,
+        "MUNICIPALITY_CODE": 17
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SAPTARI",
+        "GaPa_NaPa": "Tirahut",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 15,
+        "MUNICIPALITY_CODE": 15
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SAPTARI",
+        "GaPa_NaPa": "Saptakoshi",
+        "Type_GN": "Municipality",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 15,
+        "MUNICIPALITY_CODE": 99
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SIRAHA",
+        "GaPa_NaPa": "Arnama",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 16,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SIRAHA",
+        "GaPa_NaPa": "Aurahi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 16,
+        "MUNICIPALITY_CODE": 16
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SIRAHA",
+        "GaPa_NaPa": "Bariyarpatti",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 16,
+        "MUNICIPALITY_CODE": 15
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SIRAHA",
+        "GaPa_NaPa": "Bhagawanpur",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 16,
+        "MUNICIPALITY_CODE": 13
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SIRAHA",
+        "GaPa_NaPa": "Bishnupur",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 16,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SIRAHA",
+        "GaPa_NaPa": "Dhangadhimai",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 16,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SIRAHA",
+        "GaPa_NaPa": "Golbazar",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 16,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SIRAHA",
+        "GaPa_NaPa": "Kalyanpur",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 16,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SIRAHA",
+        "GaPa_NaPa": "Karjanha",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 16,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SIRAHA",
+        "GaPa_NaPa": "Lahan",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 16,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SIRAHA",
+        "GaPa_NaPa": "Laxmipur Patari",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 16,
+        "MUNICIPALITY_CODE": 11
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SIRAHA",
+        "GaPa_NaPa": "Mirchaiya",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 16,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SIRAHA",
+        "GaPa_NaPa": "Naraha",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 16,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SIRAHA",
+        "GaPa_NaPa": "Nawarajpur",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 16,
+        "MUNICIPALITY_CODE": 14
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SIRAHA",
+        "GaPa_NaPa": "Sakhuwa Nankarkatti",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 16,
+        "MUNICIPALITY_CODE": 12
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SIRAHA",
+        "GaPa_NaPa": "Siraha",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 16,
+        "MUNICIPALITY_CODE": 17
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SIRAHA",
+        "GaPa_NaPa": "Sukhipur",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 16,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "DHANUSHA",
+        "GaPa_NaPa": "Aurahi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 17,
+        "MUNICIPALITY_CODE": 14
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "DHANUSA",
+        "GaPa_NaPa": "Aurahi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 17,
+        "MUNICIPALITY_CODE": 14
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "DHANUSA",
+        "GaPa_NaPa": "Bateshwor",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 17,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "DHANUSA",
+        "GaPa_NaPa": "Bideha",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 17,
+        "MUNICIPALITY_CODE": 13
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "DHANUSA",
+        "GaPa_NaPa": "Kshireshwornath",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 17,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "DHANUSA",
+        "GaPa_NaPa": "Dhanauji",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 17,
+        "MUNICIPALITY_CODE": 16
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "DHANUSA",
+        "GaPa_NaPa": "Dhanushadham",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 17,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "DHANUSA",
+        "GaPa_NaPa": "Ganeshman Charnath",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 17,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "DHANUSA",
+        "GaPa_NaPa": "Hansapur",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 17,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "DHANUSA",
+        "GaPa_NaPa": "Janak Nandini",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 17,
+        "MUNICIPALITY_CODE": 12
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "DHANUSA",
+        "GaPa_NaPa": "Janakpurdham",
+        "Type_GN": "Upamahanagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 17,
+        "MUNICIPALITY_CODE": 15
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "DHANUSA",
+        "GaPa_NaPa": "Kamala",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 17,
+        "MUNICIPALITY_CODE": 11
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "DHANUSA",
+        "GaPa_NaPa": "Laxminiya",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 17,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "DHANUSA",
+        "GaPa_NaPa": "Mithila",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 17,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "DHANUSA",
+        "GaPa_NaPa": "Mithila Bihari",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 17,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "DHANUSA",
+        "GaPa_NaPa": "Mukhiyapatti Musaharmiya",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 17,
+        "MUNICIPALITY_CODE": 18
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "DHANUSA",
+        "GaPa_NaPa": "Nagarain",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 17,
+        "MUNICIPALITY_CODE": 17
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "DHANUSA",
+        "GaPa_NaPa": "Sabaila",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 17,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "DHANUSA",
+        "GaPa_NaPa": "Shahidnagar",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 17,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "MAHOTTARI",
+        "GaPa_NaPa": "Aurahi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 18,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "MAHOTTARI",
+        "GaPa_NaPa": "Balawa",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 18,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "MAHOTTARI",
+        "GaPa_NaPa": "Bardibas",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 18,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "MAHOTTARI",
+        "GaPa_NaPa": "Bhangaha",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 18,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "MAHOTTARI",
+        "GaPa_NaPa": "Ekadara",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 18,
+        "MUNICIPALITY_CODE": 11
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "MAHOTTARI",
+        "GaPa_NaPa": "Gaushala",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 18,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "MAHOTTARI",
+        "GaPa_NaPa": "Jaleshwor",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 18,
+        "MUNICIPALITY_CODE": 15
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "MAHOTTARI",
+        "GaPa_NaPa": "Loharpatti",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 18,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "MAHOTTARI",
+        "GaPa_NaPa": "Mahottari",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 18,
+        "MUNICIPALITY_CODE": 12
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "MAHOTTARI",
+        "GaPa_NaPa": "Manarashisawa",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 18,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "MAHOTTARI",
+        "GaPa_NaPa": "Matihani",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 18,
+        "MUNICIPALITY_CODE": 14
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "MAHOTTARI",
+        "GaPa_NaPa": "Pipara",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 18,
+        "MUNICIPALITY_CODE": 13
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "MAHOTTARI",
+        "GaPa_NaPa": "Ramgopalpur",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 18,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "MAHOTTARI",
+        "GaPa_NaPa": "Samsi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 18,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "MAHOTTARI",
+        "GaPa_NaPa": "Sonama",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 18,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SARLAHI",
+        "GaPa_NaPa": "Bagmati",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 19,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SARLAHI",
+        "GaPa_NaPa": "Balara",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 19,
+        "MUNICIPALITY_CODE": 16
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SARLAHI",
+        "GaPa_NaPa": "Barahathawa",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 19,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SARLAHI",
+        "GaPa_NaPa": "Basbariya",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 19,
+        "MUNICIPALITY_CODE": 13
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SARLAHI",
+        "GaPa_NaPa": "Bishnu",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 19,
+        "MUNICIPALITY_CODE": 18
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SARLAHI",
+        "GaPa_NaPa": "Brahmapuri",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 19,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SARLAHI",
+        "GaPa_NaPa": "Chakraghatta",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 19,
+        "MUNICIPALITY_CODE": 12
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SARLAHI",
+        "GaPa_NaPa": "Chandranagar",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 19,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SARLAHI",
+        "GaPa_NaPa": "Dhanakaul",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 19,
+        "MUNICIPALITY_CODE": 14
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SARLAHI",
+        "GaPa_NaPa": "Godaita",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 19,
+        "MUNICIPALITY_CODE": 17
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SARLAHI",
+        "GaPa_NaPa": "Haripur",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 19,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SARLAHI",
+        "GaPa_NaPa": "Haripurwa",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 19,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SARLAHI",
+        "GaPa_NaPa": "Hariwan",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 19,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SARLAHI",
+        "GaPa_NaPa": "Ishworpur",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 19,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SARLAHI",
+        "GaPa_NaPa": "Kabilashi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 19,
+        "MUNICIPALITY_CODE": 11
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SARLAHI",
+        "GaPa_NaPa": "Kaudena",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 19,
+        "MUNICIPALITY_CODE": 19
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SARLAHI",
+        "GaPa_NaPa": "Lalbandi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 19,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SARLAHI",
+        "GaPa_NaPa": "Malangawa",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 19,
+        "MUNICIPALITY_CODE": 20
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SARLAHI",
+        "GaPa_NaPa": "Parsa",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 19,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "SARLAHI",
+        "GaPa_NaPa": "Ramnagar",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 19,
+        "MUNICIPALITY_CODE": 15
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "SINDHULI",
+        "GaPa_NaPa": "Dudhouli",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 33,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "SINDHULI",
+        "GaPa_NaPa": "Ghyanglekha",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 33,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "SINDHULI",
+        "GaPa_NaPa": "Golanjor",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 33,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "SINDHULI",
+        "GaPa_NaPa": "Hariharpurgaghi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 33,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "SINDHULI",
+        "GaPa_NaPa": "Kamalamai",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 33,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "SINDHULI",
+        "GaPa_NaPa": "Marin",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 33,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "SINDHULI",
+        "GaPa_NaPa": "Phikkal",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 33,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "SINDHULI",
+        "GaPa_NaPa": "Sunkoshi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 33,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "SINDHULI",
+        "GaPa_NaPa": "Tinpatan",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 33,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "RAMECHHAP",
+        "GaPa_NaPa": "Doramba Shailung",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 32,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "RAMECHHAP",
+        "GaPa_NaPa": "Gokulganga",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 32,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "RAMECHHAP",
+        "GaPa_NaPa": "Khandadevi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 32,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "RAMECHHAP",
+        "GaPa_NaPa": "Likhu Tamakoshi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 32,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "RAMECHHAP",
+        "GaPa_NaPa": "Ramechhap",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 32,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "RAMECHHAP",
+        "GaPa_NaPa": "Sunapati",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 32,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "RAMECHHAP",
+        "GaPa_NaPa": "Manthali",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 32,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "RAMECHHAP",
+        "GaPa_NaPa": "Umakunda",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 32,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "DOLAKHA",
+        "GaPa_NaPa": "Baiteshwor",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 23,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "DOLAKHA",
+        "GaPa_NaPa": "Bhimeshwor",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 23,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "DOLAKHA",
+        "GaPa_NaPa": "Bigu",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 23,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "DOLAKHA",
+        "GaPa_NaPa": "Gaurishankar",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 23,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "DOLAKHA",
+        "GaPa_NaPa": "Jiri",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 23,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "DOLAKHA",
+        "GaPa_NaPa": "Kalinchowk",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 23,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "DOLAKHA",
+        "GaPa_NaPa": "Melung",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 23,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "DOLAKHA",
+        "GaPa_NaPa": "Shailung",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 23,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "DOLAKHA",
+        "GaPa_NaPa": "Tamakoshi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 23,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "SINDHUPALCHOK",
+        "GaPa_NaPa": "Balephi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 24,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "SINDHUPALCHOK",
+        "GaPa_NaPa": "Bahrabise",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 24,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "SINDHUPALCHOK",
+        "GaPa_NaPa": "Bhotekoshi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 24,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "SINDHUPALCHOK",
+        "GaPa_NaPa": "Choutara Sangachowkgadhi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 24,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "SINDHUPALCHOK",
+        "GaPa_NaPa": "Helambu",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 24,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "SINDHUPALCHOK",
+        "GaPa_NaPa": "Indrawoti",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 24,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "SINDHUPALCHOK",
+        "GaPa_NaPa": "Jugal",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 24,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "SINDHUPALCHOK",
+        "GaPa_NaPa": "Lisankhu Pakhar",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 24,
+        "MUNICIPALITY_CODE": 11
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "SINDHUPALCHOK",
+        "GaPa_NaPa": "Melamchi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 24,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "SINDHUPALCHOK",
+        "GaPa_NaPa": "Panchpokhari Thangpal",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 24,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "SINDHUPALCHOK",
+        "GaPa_NaPa": "Sunkoshi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 24,
+        "MUNICIPALITY_CODE": 12
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "SINDHUPALCHOK",
+        "GaPa_NaPa": "Tripurasundari",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 24,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "KAVREPALANCHOK",
+        "GaPa_NaPa": "Banepa",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 31,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "KAVREPALANCHOK",
+        "GaPa_NaPa": "Bethanchowk",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 31,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "KAVREPALANCHOK",
+        "GaPa_NaPa": "Bhumlu",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 31,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "KAVREPALANCHOK",
+        "GaPa_NaPa": "Chaurideurali",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 31,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "KAVREPALANCHOK",
+        "GaPa_NaPa": "Dhulikhel",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 31,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "KAVREPALANCHOK",
+        "GaPa_NaPa": "Khanikhola",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 31,
+        "MUNICIPALITY_CODE": 13
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "KAVREPALANCHOK",
+        "GaPa_NaPa": "Mahabharat",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 31,
+        "MUNICIPALITY_CODE": 12
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "KAVREPALANCHOK",
+        "GaPa_NaPa": "Mandandeupur",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 31,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "KAVREPALANCHOK",
+        "GaPa_NaPa": "Namobuddha",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 31,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "KAVREPALANCHOK",
+        "GaPa_NaPa": "Panauti",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 31,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "KAVREPALANCHOK",
+        "GaPa_NaPa": "Panchkhal",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 31,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "KAVREPALANCHOK",
+        "GaPa_NaPa": "Roshi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 31,
+        "MUNICIPALITY_CODE": 11
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "KAVREPALANCHOK",
+        "GaPa_NaPa": "Temal",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 31,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "LALITPUR",
+        "GaPa_NaPa": "Bagmati",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 30,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "LALITPUR",
+        "GaPa_NaPa": "Godawari",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 30,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "LALITPUR",
+        "GaPa_NaPa": "Konjyosom",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 30,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "LALITPUR",
+        "GaPa_NaPa": "Lalitpur",
+        "Type_GN": "Mahanagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 30,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "LALITPUR",
+        "GaPa_NaPa": "Mahalaxmi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 30,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "LALITPUR",
+        "GaPa_NaPa": "Mahankal",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 30,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "BHAKTAPUR",
+        "GaPa_NaPa": "Bhaktapur",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 29,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "BHAKTAPUR",
+        "GaPa_NaPa": "Changunarayan",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 29,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "BHAKTAPUR",
+        "GaPa_NaPa": "Madhyapur Thimi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 29,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "BHAKTAPUR",
+        "GaPa_NaPa": "Suryabinayak",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 29,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "KATHMANDU",
+        "GaPa_NaPa": "Budhanilakantha",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 28,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "KATHMANDU",
+        "GaPa_NaPa": "Chandragiri",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 28,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "KATHMANDU",
+        "GaPa_NaPa": "Dakshinkali",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 28,
+        "MUNICIPALITY_CODE": 11
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "KATHMANDU",
+        "GaPa_NaPa": "Gokarneshwor",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 28,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "KATHMANDU",
+        "GaPa_NaPa": "Kageshwori Manahara",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 28,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "KATHMANDU",
+        "GaPa_NaPa": "Kathmandu",
+        "Type_GN": "Mahanagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 28,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "KATHMANDU",
+        "GaPa_NaPa": "Kirtipur",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 28,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "KATHMANDU",
+        "GaPa_NaPa": "Nagarjun",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 28,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "KATHMANDU",
+        "GaPa_NaPa": "Shankharapur",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 28,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "KATHMANDU",
+        "GaPa_NaPa": "Tarakeshwor",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 28,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "KATHMANDU",
+        "GaPa_NaPa": "Tokha",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 28,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "NUWAKOT",
+        "GaPa_NaPa": "Belkotgadhi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 27,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "NUWAKOT",
+        "GaPa_NaPa": "Bidur",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 27,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "NUWAKOT",
+        "GaPa_NaPa": "Dupcheshwor",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 27,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "NUWAKOT",
+        "GaPa_NaPa": "Kakani",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 27,
+        "MUNICIPALITY_CODE": 12
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "NUWAKOT",
+        "GaPa_NaPa": "Kispang",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 27,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "NUWAKOT",
+        "GaPa_NaPa": "Likhu",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 27,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "NUWAKOT",
+        "GaPa_NaPa": "Myagang",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 27,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "NUWAKOT",
+        "GaPa_NaPa": "Panchakanya",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 27,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "NUWAKOT",
+        "GaPa_NaPa": "Shivapuri",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 27,
+        "MUNICIPALITY_CODE": 11
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "NUWAKOT",
+        "GaPa_NaPa": "Suryagadhi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 27,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "NUWAKOT",
+        "GaPa_NaPa": "Tadi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 27,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "NUWAKOT",
+        "GaPa_NaPa": "Tarakeshwor",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 27,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "RASUWA",
+        "GaPa_NaPa": "Gosaikunda",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 25,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "RASUWA",
+        "GaPa_NaPa": "Kalika",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 25,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "RASUWA",
+        "GaPa_NaPa": "Naukunda",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 25,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "RASUWA",
+        "GaPa_NaPa": "Aamachhodingmo",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 25,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "RASUWA",
+        "GaPa_NaPa": "Uttargaya",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 25,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "DHADING",
+        "GaPa_NaPa": "Benighat Rorang",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 26,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "DHADING",
+        "GaPa_NaPa": "Dhunibesi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 26,
+        "MUNICIPALITY_CODE": 13
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "DHADING",
+        "GaPa_NaPa": "Galchhi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 26,
+        "MUNICIPALITY_CODE": 11
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "DHADING",
+        "GaPa_NaPa": "Gangajamuna",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 26,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "DHADING",
+        "GaPa_NaPa": "Jwalamukhi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 26,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "DHADING",
+        "GaPa_NaPa": "Khaniyabas",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 26,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "DHADING",
+        "GaPa_NaPa": "Netrawati Dabjong",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 26,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "DHADING",
+        "GaPa_NaPa": "Neelkhantha",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 26,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "DHADING",
+        "GaPa_NaPa": "Rubi Valley",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 26,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "DHADING",
+        "GaPa_NaPa": "Gajuri",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 26,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "DHADING",
+        "GaPa_NaPa": "Siddhalek",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 26,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "DHADING",
+        "GaPa_NaPa": "Thakre",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 26,
+        "MUNICIPALITY_CODE": 12
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "DHADING",
+        "GaPa_NaPa": "Tripurasundari",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 26,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "MAKWANPUR",
+        "GaPa_NaPa": "Bagmati",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 34,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "MAKWANPUR",
+        "GaPa_NaPa": "Bakaiya",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 34,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "MAKWANPUR",
+        "GaPa_NaPa": "Bhimphedi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 34,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "MAKWANPUR",
+        "GaPa_NaPa": "Hetauda",
+        "Type_GN": "Upamahanagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 34,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "MAKWANPUR",
+        "GaPa_NaPa": "Indrasarowar",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 34,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "MAKWANPUR",
+        "GaPa_NaPa": "Kailash",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 34,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "MAKWANPUR",
+        "GaPa_NaPa": "Makwanpurgadhi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 34,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "MAKWANPUR",
+        "GaPa_NaPa": "Manahari",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 34,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "MAKWANPUR",
+        "GaPa_NaPa": "Raksirang",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 34,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "MAKWANPUR",
+        "GaPa_NaPa": "Thaha",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 34,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "RAUTAHAT",
+        "GaPa_NaPa": "Boudhimai",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 20,
+        "MUNICIPALITY_CODE": 11
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "RAUTAHAT",
+        "GaPa_NaPa": "Brindaban",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 20,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "RAUTAHAT",
+        "GaPa_NaPa": "Chandrapur",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 20,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "RAUTAHAT",
+        "GaPa_NaPa": "Dewahi Gonahi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 20,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "RAUTAHAT",
+        "GaPa_NaPa": "Durga Bhagwati",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 20,
+        "MUNICIPALITY_CODE": 15
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "RAUTAHAT",
+        "GaPa_NaPa": "Gadhimai",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 20,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "RAUTAHAT",
+        "GaPa_NaPa": "Garuda",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 20,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "RAUTAHAT",
+        "GaPa_NaPa": "Gaur",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 20,
+        "MUNICIPALITY_CODE": 17
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "RAUTAHAT",
+        "GaPa_NaPa": "Gujara",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 20,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "RAUTAHAT",
+        "GaPa_NaPa": "Ishanath",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 20,
+        "MUNICIPALITY_CODE": 18
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "RAUTAHAT",
+        "GaPa_NaPa": "Katahariya",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 20,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "RAUTAHAT",
+        "GaPa_NaPa": "Madhav Narayan",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 20,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "RAUTAHAT",
+        "GaPa_NaPa": "Maulapur",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 20,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "RAUTAHAT",
+        "GaPa_NaPa": "Paroha",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 20,
+        "MUNICIPALITY_CODE": 12
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "RAUTAHAT",
+        "GaPa_NaPa": "Phatuwa Bijayapur",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 20,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "RAUTAHAT",
+        "GaPa_NaPa": "Rajdevi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 20,
+        "MUNICIPALITY_CODE": 16
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "RAUTAHAT",
+        "GaPa_NaPa": "Rajpur",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 20,
+        "MUNICIPALITY_CODE": 13
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "RAUTAHAT",
+        "GaPa_NaPa": "Yamunamai",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 20,
+        "MUNICIPALITY_CODE": 14
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "BARA",
+        "GaPa_NaPa": "Aadarsh Kotwal",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 21,
+        "MUNICIPALITY_CODE": 11
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "BARA",
+        "GaPa_NaPa": "Baragadhi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 21,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "BARA",
+        "GaPa_NaPa": "Bishrampur",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 21,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "BARA",
+        "GaPa_NaPa": "Devtal",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 21,
+        "MUNICIPALITY_CODE": 15
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "BARA",
+        "GaPa_NaPa": "Jitpur Simara",
+        "Type_GN": "Upamahanagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 21,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "BARA",
+        "GaPa_NaPa": "Kalaiya",
+        "Type_GN": "Upamahanagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 21,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "BARA",
+        "GaPa_NaPa": "Karaiyamai",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 21,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "BARA",
+        "GaPa_NaPa": "Kolhabi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 21,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "BARA",
+        "GaPa_NaPa": "Mahagadhimai",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 21,
+        "MUNICIPALITY_CODE": 14
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "BARA",
+        "GaPa_NaPa": "Nijgadh",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 21,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "BARA",
+        "GaPa_NaPa": "Pacharauta",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 21,
+        "MUNICIPALITY_CODE": 13
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "BARA",
+        "GaPa_NaPa": "Parawanipur",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 21,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "BARA",
+        "GaPa_NaPa": "Pheta",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 21,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "BARA",
+        "GaPa_NaPa": "Prasauni",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 21,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "BARA",
+        "GaPa_NaPa": "Simraungadh",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 21,
+        "MUNICIPALITY_CODE": 12
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "BARA",
+        "GaPa_NaPa": "Suwarna",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 21,
+        "MUNICIPALITY_CODE": 16
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "PARSA",
+        "GaPa_NaPa": "Bahudarmai",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 22,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "PARSA",
+        "GaPa_NaPa": "Bindabasini",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 22,
+        "MUNICIPALITY_CODE": 14
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "PARSA",
+        "GaPa_NaPa": "Birgunj",
+        "Type_GN": "Mahanagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 22,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "PARSA",
+        "GaPa_NaPa": "Chhipaharmai",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 22,
+        "MUNICIPALITY_CODE": 12
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "PARSA",
+        "GaPa_NaPa": "Dhobini",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 22,
+        "MUNICIPALITY_CODE": 11
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "PARSA",
+        "GaPa_NaPa": "Jagarnathpur",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 22,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "PARSA",
+        "GaPa_NaPa": "Jirabhawani",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 22,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "PARSA",
+        "GaPa_NaPa": "Kalikamai",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 22,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "PARSA",
+        "GaPa_NaPa": "Pakaha Mainpur",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 22,
+        "MUNICIPALITY_CODE": 13
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "PARSA",
+        "GaPa_NaPa": "Parsagadhi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 22,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "PARSA",
+        "GaPa_NaPa": "Paterwa Sugauli",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 22,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "PARSA",
+        "GaPa_NaPa": "Pokhariya",
+        "Type_GN": "Nagarpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 22,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "PARSA",
+        "GaPa_NaPa": "Sakhuwa Prasauni",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 22,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 2,
+        "DISTRICT": "PARSA",
+        "GaPa_NaPa": "Thori",
+        "Type_GN": "Gaunpalika",
+        "Province": "Madhesh Pradesh",
+        "DISTRICT_CODE": 22,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "CHITAWAN",
+        "GaPa_NaPa": "Bharatpur",
+        "Type_GN": "Mahanagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 35,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "CHITAWAN",
+        "GaPa_NaPa": "Ichchhakamana",
+        "Type_GN": "Gaunpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 35,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "CHITAWAN",
+        "GaPa_NaPa": "Kalika",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 35,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "CHITAWAN",
+        "GaPa_NaPa": "Khairahani",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 35,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "CHITAWAN",
+        "GaPa_NaPa": "Madi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 35,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "CHITAWAN",
+        "GaPa_NaPa": "Rapti",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 35,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 3,
+        "DISTRICT": "CHITAWAN",
+        "GaPa_NaPa": "Ratnanagar",
+        "Type_GN": "Nagarpalika",
+        "Province": "Bagmati Pradesh",
+        "DISTRICT_CODE": 35,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "GORKHA",
+        "GaPa_NaPa": "Aarughat",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 36,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "GORKHA",
+        "GaPa_NaPa": "Ajirkot",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 36,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "GORKHA",
+        "GaPa_NaPa": "Bhimsen Thapa",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 36,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "GORKHA",
+        "GaPa_NaPa": "Chumanubri",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 36,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "GORKHA",
+        "GaPa_NaPa": "Dharche",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 36,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "GORKHA",
+        "GaPa_NaPa": "Gandaki",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 36,
+        "MUNICIPALITY_CODE": 11
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "GORKHA",
+        "GaPa_NaPa": "Gorkha",
+        "Type_GN": "Nagarpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 36,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "GORKHA",
+        "GaPa_NaPa": "Palungtar",
+        "Type_GN": "Nagarpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 36,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "GORKHA",
+        "GaPa_NaPa": "Shahid Lakhan",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 36,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "GORKHA",
+        "GaPa_NaPa": "Siranchowk",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 36,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "GORKHA",
+        "GaPa_NaPa": "Barpak Sulikot",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 36,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "LAMJUNG",
+        "GaPa_NaPa": "Besishahar",
+        "Type_GN": "Nagarpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 41,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "LAMJUNG",
+        "GaPa_NaPa": "Dordi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 41,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "LAMJUNG",
+        "GaPa_NaPa": "Dudhpokhari",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 41,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "LAMJUNG",
+        "GaPa_NaPa": "Kwholasothar",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 41,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "LAMJUNG",
+        "GaPa_NaPa": "Madhya Nepal",
+        "Type_GN": "Nagarpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 41,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "LAMJUNG",
+        "GaPa_NaPa": "Marshyangdi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 41,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "LAMJUNG",
+        "GaPa_NaPa": "Rainas",
+        "Type_GN": "Nagarpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 41,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "LAMJUNG",
+        "GaPa_NaPa": "Sundarbazar",
+        "Type_GN": "Nagarpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 41,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "TANAHU",
+        "GaPa_NaPa": "Aanbookhaireni",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 42,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "TANAHU",
+        "GaPa_NaPa": "Shuklagandaki",
+        "Type_GN": "Nagarpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 42,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "TANAHU",
+        "GaPa_NaPa": "Bandipur",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 42,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "TANAHU",
+        "GaPa_NaPa": "Bhanu",
+        "Type_GN": "Nagarpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 42,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "TANAHU",
+        "GaPa_NaPa": "Bhimad",
+        "Type_GN": "Nagarpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 42,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "TANAHU",
+        "GaPa_NaPa": "Vyas",
+        "Type_GN": "Nagarpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 42,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "TANAHU",
+        "GaPa_NaPa": "Devghat",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 42,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "TANAHU",
+        "GaPa_NaPa": "Ghiring",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 42,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "TANAHU",
+        "GaPa_NaPa": "Myagde",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 42,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "TANAHU",
+        "GaPa_NaPa": "Rishing",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 42,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "SYANGJA",
+        "GaPa_NaPa": "Aandhikhola",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 44,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "SYANGJA",
+        "GaPa_NaPa": "Arjunchaupari",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 44,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "SYANGJA",
+        "GaPa_NaPa": "Bhirkot",
+        "Type_GN": "Nagarpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 44,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "SYANGJA",
+        "GaPa_NaPa": "Biruwa",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 44,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "SYANGJA",
+        "GaPa_NaPa": "Chapakot",
+        "Type_GN": "Nagarpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 44,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "SYANGJA",
+        "GaPa_NaPa": "Galyang",
+        "Type_GN": "Nagarpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 44,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "SYANGJA",
+        "GaPa_NaPa": "Harinas",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 44,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "SYANGJA",
+        "GaPa_NaPa": "Kaligandaki",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 44,
+        "MUNICIPALITY_CODE": 11
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "SYANGJA",
+        "GaPa_NaPa": "Phedikhola",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 44,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "SYANGJA",
+        "GaPa_NaPa": "Putalibazar",
+        "Type_GN": "Nagarpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 44,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "SYANGJA",
+        "GaPa_NaPa": "Waling",
+        "Type_GN": "Nagarpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 44,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "KASKI",
+        "GaPa_NaPa": "Annapurna",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 40,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "KASKI",
+        "GaPa_NaPa": "Machhapuchchhre",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 40,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "KASKI",
+        "GaPa_NaPa": "Madi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 40,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "KASKI",
+        "GaPa_NaPa": "Pokhara Lekhnath",
+        "Type_GN": "Mahanagarpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 40,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "KASKI",
+        "GaPa_NaPa": "Rupa",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 40,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "MANANG",
+        "GaPa_NaPa": "Chame",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 37,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "MANANG",
+        "GaPa_NaPa": "Narpa Bhumi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 37,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "MANANG",
+        "GaPa_NaPa": "Nason",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 37,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "MANANG",
+        "GaPa_NaPa": "Manang Ngisyang",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 37,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "MUSTANG",
+        "GaPa_NaPa": "Waragun Muktikshetra",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 38,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "MUSTANG",
+        "GaPa_NaPa": "Lo-Ghekar Damodarkunda",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 38,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "MUSTANG",
+        "GaPa_NaPa": "Gharapjhong",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 38,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "MUSTANG",
+        "GaPa_NaPa": "Lomanthang",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 38,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "MUSTANG",
+        "GaPa_NaPa": "Thasang",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 38,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "MYAGDI",
+        "GaPa_NaPa": "Annapurna",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 39,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "MYAGDI",
+        "GaPa_NaPa": "Beni",
+        "Type_GN": "Nagarpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 39,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "MYAGDI",
+        "GaPa_NaPa": "Dhaulagiri",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 39,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "MYAGDI",
+        "GaPa_NaPa": "Raghuganga",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 39,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "MYAGDI",
+        "GaPa_NaPa": "Malika",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 39,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "MYAGDI",
+        "GaPa_NaPa": "Mangala",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 39,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "PARBAT",
+        "GaPa_NaPa": "Bihadi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 45,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "PARBAT",
+        "GaPa_NaPa": "Jaljala",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 45,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "PARBAT",
+        "GaPa_NaPa": "Kushma",
+        "Type_GN": "Nagarpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 45,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "PARBAT",
+        "GaPa_NaPa": "Mahashila",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 45,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "PARBAT",
+        "GaPa_NaPa": "Modi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 45,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "PARBAT",
+        "GaPa_NaPa": "Paiyu",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 45,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "PARBAT",
+        "GaPa_NaPa": "Phalebas",
+        "Type_GN": "Nagarpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 45,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "BAGLUNG",
+        "GaPa_NaPa": "Badigad",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 46,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "BAGLUNG",
+        "GaPa_NaPa": "Baglung",
+        "Type_GN": "Nagarpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 46,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "BAGLUNG",
+        "GaPa_NaPa": "Bareng",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 46,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "BAGLUNG",
+        "GaPa_NaPa": "Dhorpatan",
+        "Type_GN": "Nagarpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 46,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "BAGLUNG",
+        "GaPa_NaPa": "Galkot",
+        "Type_GN": "Nagarpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 46,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "BAGLUNG",
+        "GaPa_NaPa": "Jaimuni",
+        "Type_GN": "Nagarpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 46,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "BAGLUNG",
+        "GaPa_NaPa": "Kathekhola",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 46,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "BAGLUNG",
+        "GaPa_NaPa": "Nisikhola",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 46,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "BAGLUNG",
+        "GaPa_NaPa": "Tamankhola",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 46,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "BAGLUNG",
+        "GaPa_NaPa": "Tarakhola",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 46,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "GULMI",
+        "GaPa_NaPa": "Chandrakot",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 50,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "GULMI",
+        "GaPa_NaPa": "Chhatrakot",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 50,
+        "MUNICIPALITY_CODE": 11
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "GULMI",
+        "GaPa_NaPa": "Dhurkot",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 50,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "GULMI",
+        "GaPa_NaPa": "Gulmidarbar",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 50,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "GULMI",
+        "GaPa_NaPa": "Isma",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 50,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "GULMI",
+        "GaPa_NaPa": "Kaligandaki",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 50,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "GULMI",
+        "GaPa_NaPa": "Madane",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 50,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "GULMI",
+        "GaPa_NaPa": "Malika",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 50,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "GULMI",
+        "GaPa_NaPa": "Musikot",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 50,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "GULMI",
+        "GaPa_NaPa": "Resunga",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 50,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "GULMI",
+        "GaPa_NaPa": "Ruruchhetra",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 50,
+        "MUNICIPALITY_CODE": 12
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "GULMI",
+        "GaPa_NaPa": "Satyawati",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 50,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "PALPA",
+        "GaPa_NaPa": "Baganaskali",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 52,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "PALPA",
+        "GaPa_NaPa": "Nisdi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 52,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "PALPA",
+        "GaPa_NaPa": "Purbakhola",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 52,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "PALPA",
+        "GaPa_NaPa": "Rainadevi Chhahara",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 52,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "PALPA",
+        "GaPa_NaPa": "Rambha",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 52,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "PALPA",
+        "GaPa_NaPa": "Mathagadhi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 52,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "PALPA",
+        "GaPa_NaPa": "Rampur",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 52,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "PALPA",
+        "GaPa_NaPa": "Ribdikot",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 52,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "PALPA",
+        "GaPa_NaPa": "Tansen",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 52,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "PALPA",
+        "GaPa_NaPa": "Tinau",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 52,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "PARASI",
+        "GaPa_NaPa": "Bardaghat",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 53,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "PARASI",
+        "GaPa_NaPa": "Palhinandan",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 53,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "PARASI",
+        "GaPa_NaPa": "Pratappur",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 53,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "PARASI",
+        "GaPa_NaPa": "Ramgram",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 53,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "PARASI",
+        "GaPa_NaPa": "Sarawal",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 53,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "PARASI",
+        "GaPa_NaPa": "Sunawal",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 53,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "PARASI",
+        "GaPa_NaPa": "Susta",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 53,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "RUPANDEHI",
+        "GaPa_NaPa": "Butwal",
+        "Type_GN": "Upamahanagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 54,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "RUPANDEHI",
+        "GaPa_NaPa": "Devdaha",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 54,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "RUPANDEHI",
+        "GaPa_NaPa": "Gaidahawa",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 54,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "RUPANDEHI",
+        "GaPa_NaPa": "Kanchan",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 54,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "RUPANDEHI",
+        "GaPa_NaPa": "Kotahimai",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 54,
+        "MUNICIPALITY_CODE": 14
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "RUPANDEHI",
+        "GaPa_NaPa": "Lumbini Sanskritik",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 54,
+        "MUNICIPALITY_CODE": 13
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "RUPANDEHI",
+        "GaPa_NaPa": "Marchawari",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 54,
+        "MUNICIPALITY_CODE": 16
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "RUPANDEHI",
+        "GaPa_NaPa": "Mayadevi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 54,
+        "MUNICIPALITY_CODE": 12
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "RUPANDEHI",
+        "GaPa_NaPa": "Om Satiya",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 54,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "RUPANDEHI",
+        "GaPa_NaPa": "Rohini",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 54,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "RUPANDEHI",
+        "GaPa_NaPa": "Sainamaina",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 54,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "RUPANDEHI",
+        "GaPa_NaPa": "Sammarimai",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 54,
+        "MUNICIPALITY_CODE": 15
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "RUPANDEHI",
+        "GaPa_NaPa": "Siddharthanagar",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 54,
+        "MUNICIPALITY_CODE": 11
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "RUPANDEHI",
+        "GaPa_NaPa": "Siyari",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 54,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "RUPANDEHI",
+        "GaPa_NaPa": "Suddhodhan",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 54,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "RUPANDEHI",
+        "GaPa_NaPa": "Tilottama",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 54,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "KAPILBASTU",
+        "GaPa_NaPa": "Banganga",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 55,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "KAPILBASTU",
+        "GaPa_NaPa": "Bijayanagar",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 55,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "KAPILBASTU",
+        "GaPa_NaPa": "Buddhabhumi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 55,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "KAPILBASTU",
+        "GaPa_NaPa": "Kapilbastu",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 55,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "KAPILBASTU",
+        "GaPa_NaPa": "Krishnanagar",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 55,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "KAPILBASTU",
+        "GaPa_NaPa": "Maharajganj",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 55,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "KAPILBASTU",
+        "GaPa_NaPa": "Mayadevi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 55,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "KAPILBASTU",
+        "GaPa_NaPa": "Shivaraj",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 55,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "KAPILBASTU",
+        "GaPa_NaPa": "Shuddhodhan",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 55,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "KAPILBASTU",
+        "GaPa_NaPa": "Yashodhara",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 55,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "ARGHAKHANCHI",
+        "GaPa_NaPa": "Bhumikasthan",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 51,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "ARGHAKHANCHI",
+        "GaPa_NaPa": "Chhatradev",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 51,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "ARGHAKHANCHI",
+        "GaPa_NaPa": "Malarani",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 51,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "ARGHAKHANCHI",
+        "GaPa_NaPa": "Panini",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 51,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "ARGHAKHANCHI",
+        "GaPa_NaPa": "Sandhikharka",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 51,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "ARGHAKHANCHI",
+        "GaPa_NaPa": "Sitganga",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 51,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "PYUTHAN",
+        "GaPa_NaPa": "Airawati",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 49,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "PYUTHAN",
+        "GaPa_NaPa": "Gaumukhi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 49,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "PYUTHAN",
+        "GaPa_NaPa": "Jhimaruk",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 49,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "PYUTHAN",
+        "GaPa_NaPa": "Mallarani",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 49,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "PYUTHAN",
+        "GaPa_NaPa": "Mandavi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 49,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "PYUTHAN",
+        "GaPa_NaPa": "Naubahini",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 49,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "PYUTHAN",
+        "GaPa_NaPa": "Pyuthan",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 49,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "PYUTHAN",
+        "GaPa_NaPa": "Sarumarani",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 49,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "PYUTHAN",
+        "GaPa_NaPa": "Swargadwari",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 49,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "ROLPA",
+        "GaPa_NaPa": "Pariwartan",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 48,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "ROLPA",
+        "GaPa_NaPa": "Lungri",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 48,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "ROLPA",
+        "GaPa_NaPa": "Madi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 48,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "ROLPA",
+        "GaPa_NaPa": "Rolpa",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 48,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "ROLPA",
+        "GaPa_NaPa": "Runtigadhi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 48,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "ROLPA",
+        "GaPa_NaPa": "Gangadev",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 48,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "ROLPA",
+        "GaPa_NaPa": "Sunchhahari",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 48,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "ROLPA",
+        "GaPa_NaPa": "Sunil Smriti",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 48,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "ROLPA",
+        "GaPa_NaPa": "Thawang",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 48,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "ROLPA",
+        "GaPa_NaPa": "Tribeni",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 48,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "RUKUM WEST",
+        "GaPa_NaPa": "Aathbiskot",
+        "Type_GN": "Nagarpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 66,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "RUKUM WEST",
+        "GaPa_NaPa": "Banphikot",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 66,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "RUKUM WEST",
+        "GaPa_NaPa": "Chaurjahari",
+        "Type_GN": "Nagarpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 66,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "RUKUM WEST",
+        "GaPa_NaPa": "Musikot",
+        "Type_GN": "Nagarpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 66,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "RUKUM WEST",
+        "GaPa_NaPa": "Sanibheri",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 66,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "RUKUM WEST",
+        "GaPa_NaPa": "Tribeni",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 66,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "SALYAN",
+        "GaPa_NaPa": "Bagchaur",
+        "Type_GN": "Nagarpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 67,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "SALYAN",
+        "GaPa_NaPa": "Banagad Kupinde",
+        "Type_GN": "Nagarpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 67,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "SALYAN",
+        "GaPa_NaPa": "Chhatreshwori",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 67,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "SALYAN",
+        "GaPa_NaPa": "Darma",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 67,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "SALYAN",
+        "GaPa_NaPa": "Siddhakumakh",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 67,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "SALYAN",
+        "GaPa_NaPa": "Kalimati",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 67,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "SALYAN",
+        "GaPa_NaPa": "Kapurkot",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 67,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "SALYAN",
+        "GaPa_NaPa": "Kumakh",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 67,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "SALYAN",
+        "GaPa_NaPa": "Sharada",
+        "Type_GN": "Nagarpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 67,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "SALYAN",
+        "GaPa_NaPa": "Tribeni",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 67,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "DANG",
+        "GaPa_NaPa": "Babai",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 56,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "DANG",
+        "GaPa_NaPa": "Banglachuli",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 56,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "DANG",
+        "GaPa_NaPa": "Dangisharan",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 56,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "DANG",
+        "GaPa_NaPa": "Gadhawa",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 56,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "DANG",
+        "GaPa_NaPa": "Ghorahi",
+        "Type_GN": "Upamahanagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 56,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "DANG",
+        "GaPa_NaPa": "Lamahi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 56,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "DANG",
+        "GaPa_NaPa": "Rajpur",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 56,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "DANG",
+        "GaPa_NaPa": "Rapti",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 56,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "DANG",
+        "GaPa_NaPa": "Shantinagar",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 56,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "DANG",
+        "GaPa_NaPa": "Tulsipur",
+        "Type_GN": "Upamahanagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 56,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "BANKE",
+        "GaPa_NaPa": "Baijanath",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 57,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "BANKE",
+        "GaPa_NaPa": "Duduwa",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 57,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "BANKE",
+        "GaPa_NaPa": "Janaki",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 57,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "BANKE",
+        "GaPa_NaPa": "Khajura",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 57,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "BANKE",
+        "GaPa_NaPa": "Kohalpur",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 57,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "BANKE",
+        "GaPa_NaPa": "Narainapur",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 57,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "BANKE",
+        "GaPa_NaPa": "Nepalgunj",
+        "Type_GN": "Upamahanagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 57,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "BANKE",
+        "GaPa_NaPa": "Rapti Sonari",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 57,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "BARDIYA",
+        "GaPa_NaPa": "Badhaiyatal",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 58,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "BARDIYA",
+        "GaPa_NaPa": "Bansgadhi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 58,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "BARDIYA",
+        "GaPa_NaPa": "Bansgadhi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 58,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "BARDIYA",
+        "GaPa_NaPa": "Barbardiya",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 58,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "BARDIYA",
+        "GaPa_NaPa": "Geruwa",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 58,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "BARDIYA",
+        "GaPa_NaPa": "Gulariya",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 58,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "BARDIYA",
+        "GaPa_NaPa": "Madhuwan",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 58,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "BARDIYA",
+        "GaPa_NaPa": "Rajapur",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 58,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "BARDIYA",
+        "GaPa_NaPa": "Thakurbaba",
+        "Type_GN": "Nagarpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 58,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "SURKHET",
+        "GaPa_NaPa": "Barahatal",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 68,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "SURKHET",
+        "GaPa_NaPa": "Bheriganga",
+        "Type_GN": "Nagarpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 68,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "SURKHET",
+        "GaPa_NaPa": "Birendranagar",
+        "Type_GN": "Nagarpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 68,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "SURKHET",
+        "GaPa_NaPa": "Chaukune",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 68,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "SURKHET",
+        "GaPa_NaPa": "Chingad",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 68,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "SURKHET",
+        "GaPa_NaPa": "Gurbhakot",
+        "Type_GN": "Nagarpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 68,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "SURKHET",
+        "GaPa_NaPa": "Lekabeshi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 68,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "SURKHET",
+        "GaPa_NaPa": "Panchapuri",
+        "Type_GN": "Nagarpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 68,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "SURKHET",
+        "GaPa_NaPa": "Simta",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 68,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "DAILEKH",
+        "GaPa_NaPa": "Aathbis",
+        "Type_GN": "Nagarpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 64,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "DAILEKH",
+        "GaPa_NaPa": "Bhagawatimai",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 64,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "DAILEKH",
+        "GaPa_NaPa": "Bhairabi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 64,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "DAILEKH",
+        "GaPa_NaPa": "Chamunda Bindrasaini",
+        "Type_GN": "Nagarpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 64,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "DAILEKH",
+        "GaPa_NaPa": "Dullu",
+        "Type_GN": "Nagarpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 64,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "DAILEKH",
+        "GaPa_NaPa": "Dungeshwor",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 64,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "DAILEKH",
+        "GaPa_NaPa": "Gurans",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 64,
+        "MUNICIPALITY_CODE": 11
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "DAILEKH",
+        "GaPa_NaPa": "Mahabu",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 64,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "DAILEKH",
+        "GaPa_NaPa": "Narayan",
+        "Type_GN": "Nagarpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 64,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "DAILEKH",
+        "GaPa_NaPa": "Naumule",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 64,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "DAILEKH",
+        "GaPa_NaPa": "Thantikandh",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 64,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "JAJARKOT",
+        "GaPa_NaPa": "Barekot",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 65,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "JAJARKOT",
+        "GaPa_NaPa": "Bheri",
+        "Type_GN": "Nagarpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 65,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "JAJARKOT",
+        "GaPa_NaPa": "Chhedagad",
+        "Type_GN": "Nagarpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 65,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "JAJARKOT",
+        "GaPa_NaPa": "Junichande",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 65,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "JAJARKOT",
+        "GaPa_NaPa": "Kushe",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 65,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "JAJARKOT",
+        "GaPa_NaPa": "Shivalaya",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 65,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "JAJARKOT",
+        "GaPa_NaPa": "Nalgad",
+        "Type_GN": "Nagarpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 65,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "DOLPA",
+        "GaPa_NaPa": "Chharka Tangsong",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 59,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "DOLPA",
+        "GaPa_NaPa": "Dolpo Buddha",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 59,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "DOLPA",
+        "GaPa_NaPa": "Jagadulla",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 59,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "DOLPA",
+        "GaPa_NaPa": "Kaike",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 59,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "DOLPA",
+        "GaPa_NaPa": "Mudkechula",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 59,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "DOLPA",
+        "GaPa_NaPa": "Shey Phoksundo",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 59,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "DOLPA",
+        "GaPa_NaPa": "Thulibheri",
+        "Type_GN": "Nagarpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 59,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "DOLPA",
+        "GaPa_NaPa": "Tripurasundari",
+        "Type_GN": "Nagarpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 59,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "JUMLA",
+        "GaPa_NaPa": "Chandannath",
+        "Type_GN": "Nagarpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 62,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "JUMLA",
+        "GaPa_NaPa": "Guthichaur",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 62,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "JUMLA",
+        "GaPa_NaPa": "Hima",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 62,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "JUMLA",
+        "GaPa_NaPa": "Kanakasundari",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 62,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "JUMLA",
+        "GaPa_NaPa": "Patarasi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 62,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "JUMLA",
+        "GaPa_NaPa": "Sinja",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 62,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "JUMLA",
+        "GaPa_NaPa": "Tatopani",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 62,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "JUMLA",
+        "GaPa_NaPa": "Tila",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 62,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "KALIKOT",
+        "GaPa_NaPa": "Shuvakalika",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 63,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "KALIKOT",
+        "GaPa_NaPa": "Khandachakra",
+        "Type_GN": "Nagarpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 63,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "KALIKOT",
+        "GaPa_NaPa": "Mahawai",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 63,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "KALIKOT",
+        "GaPa_NaPa": "Naraharinath",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 63,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "KALIKOT",
+        "GaPa_NaPa": "Pachaljharana",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 63,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "KALIKOT",
+        "GaPa_NaPa": "Palata",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 63,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "KALIKOT",
+        "GaPa_NaPa": "Raskot",
+        "Type_GN": "Nagarpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 63,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "KALIKOT",
+        "GaPa_NaPa": "Sanni Tribeni",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 63,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "KALIKOT",
+        "GaPa_NaPa": "Tilagupha",
+        "Type_GN": "Nagarpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 63,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "MUGU",
+        "GaPa_NaPa": "Chhayanath Rara",
+        "Type_GN": "Nagarpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 60,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "MUGU",
+        "GaPa_NaPa": "Khatyad",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 60,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "MUGU",
+        "GaPa_NaPa": "Mugum Karmarong",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 60,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "MUGU",
+        "GaPa_NaPa": "Soru",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 60,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "HUMLA",
+        "GaPa_NaPa": "Adanchuli",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 61,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "HUMLA",
+        "GaPa_NaPa": "Chankheli",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 61,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "HUMLA",
+        "GaPa_NaPa": "Kharpunath",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 61,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "HUMLA",
+        "GaPa_NaPa": "Namkha",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 61,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "HUMLA",
+        "GaPa_NaPa": "Sarkegad",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 61,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "HUMLA",
+        "GaPa_NaPa": "Simkot",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 61,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 6,
+        "DISTRICT": "HUMLA",
+        "GaPa_NaPa": "Tanjakot",
+        "Type_GN": "Gaunpalika",
+        "Province": "Karnali Pradesh",
+        "DISTRICT_CODE": 61,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAJURA",
+        "GaPa_NaPa": "Badimalika",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 69,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAJURA",
+        "GaPa_NaPa": "Budhiganga",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 69,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAJURA",
+        "GaPa_NaPa": "Budhinanda",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 69,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAJURA",
+        "GaPa_NaPa": "Khaptad Chhededaha",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 69,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAJURA",
+        "GaPa_NaPa": "Gaumul",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 69,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAJURA",
+        "GaPa_NaPa": "Himali",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 69,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAJURA",
+        "GaPa_NaPa": "Jagannath",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 69,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAJURA",
+        "GaPa_NaPa": "Swami Kartik Khapar",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 69,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAJURA",
+        "GaPa_NaPa": "Tribeni",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 69,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAJHANG",
+        "GaPa_NaPa": "Bitthadchir",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 70,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAJHANG",
+        "GaPa_NaPa": "Bungal",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 70,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAJHANG",
+        "GaPa_NaPa": "Chhabispathibhera",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 70,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAJHANG",
+        "GaPa_NaPa": "Durgathali",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 70,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAJHANG",
+        "GaPa_NaPa": "Jayaprithvi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 70,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAJHANG",
+        "GaPa_NaPa": "Saipal",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 70,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAJHANG",
+        "GaPa_NaPa": "Kedarsyun",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 70,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAJHANG",
+        "GaPa_NaPa": "Khaptad Chhanna",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 70,
+        "MUNICIPALITY_CODE": 12
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAJHANG",
+        "GaPa_NaPa": "Masta",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 70,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAJHANG",
+        "GaPa_NaPa": "Surma",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 70,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAJHANG",
+        "GaPa_NaPa": "Talkot",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 70,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAJHANG",
+        "GaPa_NaPa": "Thalara",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 70,
+        "MUNICIPALITY_CODE": 11
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "ACHHAM",
+        "GaPa_NaPa": "Bannigadhi Jayagadh",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 75,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "ACHHAM",
+        "GaPa_NaPa": "Chaurpati",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 75,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "ACHHAM",
+        "GaPa_NaPa": "Dhakari",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 75,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "ACHHAM",
+        "GaPa_NaPa": "Kamalbazar",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 75,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "ACHHAM",
+        "GaPa_NaPa": "Mangalsen",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 75,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "ACHHAM",
+        "GaPa_NaPa": "Mellekh",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 75,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "ACHHAM",
+        "GaPa_NaPa": "Panchdewal Binayak",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 75,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "ACHHAM",
+        "GaPa_NaPa": "Ramaroshan",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 75,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "ACHHAM",
+        "GaPa_NaPa": "Sanphebagar",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 75,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "ACHHAM",
+        "GaPa_NaPa": "Turmakhand",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 75,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "DOTI",
+        "GaPa_NaPa": "Aadarsh",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 74,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "DOTI",
+        "GaPa_NaPa": "Badikedar",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 74,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "DOTI",
+        "GaPa_NaPa": "Bogatan Phudsil",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 74,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "DOTI",
+        "GaPa_NaPa": "Dipayal Silgadhi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 74,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "DOTI",
+        "GaPa_NaPa": "Jorayal",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 74,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "DOTI",
+        "GaPa_NaPa": "K.I. Singh",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 74,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "DOTI",
+        "GaPa_NaPa": "Purbichauki",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 74,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "DOTI",
+        "GaPa_NaPa": "Sayal",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 74,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "DOTI",
+        "GaPa_NaPa": "Shikhar",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 74,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "KAILALI",
+        "GaPa_NaPa": "Bardagoriya",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 76,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "KAILALI",
+        "GaPa_NaPa": "Bhajani",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 76,
+        "MUNICIPALITY_CODE": 11
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "KAILALI",
+        "GaPa_NaPa": "Chure",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 76,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "KAILALI",
+        "GaPa_NaPa": "Dhangadhi",
+        "Type_GN": "Upamahanagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 76,
+        "MUNICIPALITY_CODE": 13
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "KAILALI",
+        "GaPa_NaPa": "Gauriganga",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 76,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "KAILALI",
+        "GaPa_NaPa": "Ghodaghodi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 76,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "KAILALI",
+        "GaPa_NaPa": "Godawari",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 76,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "KAILALI",
+        "GaPa_NaPa": "Janaki",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 76,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "KAILALI",
+        "GaPa_NaPa": "Joshipur",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 76,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "KAILALI",
+        "GaPa_NaPa": "Kailari",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 76,
+        "MUNICIPALITY_CODE": 12
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "KAILALI",
+        "GaPa_NaPa": "Lamkichuha",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 76,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "KAILALI",
+        "GaPa_NaPa": "Mohanyal",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 76,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "KAILALI",
+        "GaPa_NaPa": "Tikapur",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 76,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "KANCHANPUR",
+        "GaPa_NaPa": "Bedkot",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 77,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "KANCHANPUR",
+        "GaPa_NaPa": "Belauri",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 77,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "KANCHANPUR",
+        "GaPa_NaPa": "Beldandi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 77,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "KANCHANPUR",
+        "GaPa_NaPa": "Bhimdatta",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 77,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "KANCHANPUR",
+        "GaPa_NaPa": "Krishnapur",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 77,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "KANCHANPUR",
+        "GaPa_NaPa": "Laljhadi",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 77,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "KANCHANPUR",
+        "GaPa_NaPa": "Dodhara Chandani",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 77,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "KANCHANPUR",
+        "GaPa_NaPa": "Punarbas",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 77,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "KANCHANPUR",
+        "GaPa_NaPa": "Shuklaphanta",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 77,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "DADELDHURA",
+        "GaPa_NaPa": "Ajaymeru",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 73,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "DADELDHURA",
+        "GaPa_NaPa": "Aalital",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 73,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "DADELDHURA",
+        "GaPa_NaPa": "Amargadhi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 73,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "DADELDHURA",
+        "GaPa_NaPa": "Bhageshwor",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 73,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "DADELDHURA",
+        "GaPa_NaPa": "Ganyapdhura",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 73,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "DADELDHURA",
+        "GaPa_NaPa": "Nawadurga",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 73,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "DADELDHURA",
+        "GaPa_NaPa": "Parshuram",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 73,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAITADI",
+        "GaPa_NaPa": "Dasharathchand",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 72,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAITADI",
+        "GaPa_NaPa": "Dilasaini",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 72,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAITADI",
+        "GaPa_NaPa": "Dogadakedar",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 72,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAITADI",
+        "GaPa_NaPa": "Melauli",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 72,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAITADI",
+        "GaPa_NaPa": "Pancheshwor",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 72,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAITADI",
+        "GaPa_NaPa": "Patan",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 72,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAITADI",
+        "GaPa_NaPa": "Purchaundi",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 72,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAITADI",
+        "GaPa_NaPa": "Shivanath",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 72,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAITADI",
+        "GaPa_NaPa": "Sigas",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 72,
+        "MUNICIPALITY_CODE": 10
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "BAITADI",
+        "GaPa_NaPa": "Surnaya",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 72,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "DARCHULA",
+        "GaPa_NaPa": "Apihimal",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 71,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "DARCHULA",
+        "GaPa_NaPa": "Byas",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 71,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "DARCHULA",
+        "GaPa_NaPa": "Duhun",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 71,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "DARCHULA",
+        "GaPa_NaPa": "Lekam",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 71,
+        "MUNICIPALITY_CODE": 9
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "DARCHULA",
+        "GaPa_NaPa": "Mahakali",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 71,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "DARCHULA",
+        "GaPa_NaPa": "Malikarjun",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 71,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "DARCHULA",
+        "GaPa_NaPa": "Marma",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 71,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "DARCHULA",
+        "GaPa_NaPa": "Naugad",
+        "Type_GN": "Gaunpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 71,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 7,
+        "DISTRICT": "DARCHULA",
+        "GaPa_NaPa": "Shailyashikhar",
+        "Type_GN": "Nagarpalika",
+        "Province": "Sudurpashchim Pradesh",
+        "DISTRICT_CODE": 71,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "NAWALPUR",
+        "GaPa_NaPa": "Binayi Tribeni",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 43,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "NAWALPUR",
+        "GaPa_NaPa": "Binayi Tribeni",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 43,
+        "MUNICIPALITY_CODE": 8
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "NAWALPUR",
+        "GaPa_NaPa": "Bulingtar",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 43,
+        "MUNICIPALITY_CODE": 2
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "NAWALPUR",
+        "GaPa_NaPa": "Baudikali",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 43,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "NAWALPUR",
+        "GaPa_NaPa": "Devchuli",
+        "Type_GN": "Nagarpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 43,
+        "MUNICIPALITY_CODE": 5
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "NAWALPUR",
+        "GaPa_NaPa": "Gaidakot",
+        "Type_GN": "Nagarpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 43,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "NAWALPUR",
+        "GaPa_NaPa": "Hupsekot",
+        "Type_GN": "Gaunpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 43,
+        "MUNICIPALITY_CODE": 4
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "NAWALPUR",
+        "GaPa_NaPa": "Kawasoti",
+        "Type_GN": "Nagarpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 43,
+        "MUNICIPALITY_CODE": 6
+    },
+    {
+        "STATE_CODE": 4,
+        "DISTRICT": "NAWALPUR",
+        "GaPa_NaPa": "Madhyabindu",
+        "Type_GN": "Nagarpalika",
+        "Province": "Gandaki Pradesh",
+        "DISTRICT_CODE": 43,
+        "MUNICIPALITY_CODE": 7
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "RUKUM EAST",
+        "GaPa_NaPa": "Bhume",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 47,
+        "MUNICIPALITY_CODE": 3
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "RUKUM EAST",
+        "GaPa_NaPa": "Putha Uttanganga",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 47,
+        "MUNICIPALITY_CODE": 1
+    },
+    {
+        "STATE_CODE": 5,
+        "DISTRICT": "RUKUM EAST",
+        "GaPa_NaPa": "Sisne",
+        "Type_GN": "Gaunpalika",
+        "Province": "Lumbini Pradesh",
+        "DISTRICT_CODE": 47,
+        "MUNICIPALITY_CODE": 2
+    }
+]
