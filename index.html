@@ -18,6 +18,15 @@
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1024">
     <meta property="og:image:height" content="1024">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H7JYQ8Y49X"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-H7JYQ8Y49X');
+    </script>
 </head>
 <body>
     <div class="breadcrumb flat" id="breadcrumb">
@@ -451,78 +460,78 @@
         }
 
         // Group KML layers individually with titles
-        const kmlFiles = [
-            { name: "Aadarsh Sailigadh WSP", file: "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.6.0/data/projects/Aadarsh Sailigadh WSP.kml" },
-            { name: "Barpak WSP", file: "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.6.0/data/projects/Barpak WSP.kml" }
-        ];
+        // const kmlFiles = [
+        //     { name: "Aadarsh Sailigadh WSP", file: "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.6.0/data/projects/Aadarsh Sailigadh WSP.kml" },
+        //     { name: "Barpak WSP", file: "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.6.0/data/projects/Barpak WSP.kml" }
+        // ];
 
-        const kmlLayers = {};
+        // const kmlLayers = {};
 
-        kmlFiles.forEach(kml => {
-            const kmlLayer = omnivore.kml(kml.file)
-                .on('ready', function() {
-                    const layerGroup = this;
-                    layerGroup.eachLayer(function(layer) {
-                        // Styling for point layers
-                        if (layer instanceof L.Marker) {
-                            const latlng = layer.getLatLng();
-                            const circleMarker = L.circleMarker(latlng, {
-                                radius: 3,
-                                fillColor: '#FF0000',
-                                color: '#000',
-                                weight: 1,
-                                opacity: 1,
-                                fillOpacity: 0.8
-                            });
+        // kmlFiles.forEach(kml => {
+        //     const kmlLayer = omnivore.kml(kml.file)
+        //         .on('ready', function() {
+        //             const layerGroup = this;
+        //             layerGroup.eachLayer(function(layer) {
+        //                 // Styling for point layers
+        //                 if (layer instanceof L.Marker) {
+        //                     const latlng = layer.getLatLng();
+        //                     const circleMarker = L.circleMarker(latlng, {
+        //                         radius: 3,
+        //                         fillColor: '#FF0000',
+        //                         color: '#000',
+        //                         weight: 1,
+        //                         opacity: 1,
+        //                         fillOpacity: 0.8
+        //                     });
 
-                            // Explicitly copy ALL properties from original marker
-                            circleMarker.feature = JSON.parse(JSON.stringify(layer.feature));
+        //                     // Explicitly copy ALL properties from original marker
+        //                     circleMarker.feature = JSON.parse(JSON.stringify(layer.feature));
 
-                            // Create popup content
-                            if (circleMarker.feature && circleMarker.feature.properties) {
-                                const popupContent = Object.entries(circleMarker.feature.properties)
-                                    .map(([key, value]) => `<strong>${key}:</strong> ${value}`)
-                                    .join('<br>');
+        //                     // Create popup content
+        //                     if (circleMarker.feature && circleMarker.feature.properties) {
+        //                         const popupContent = Object.entries(circleMarker.feature.properties)
+        //                             .map(([key, value]) => `<strong>${key}:</strong> ${value}`)
+        //                             .join('<br>');
                                 
-                                circleMarker.bindPopup(popupContent, {
-                                    maxWidth: 300,
-                                    className: 'custom-kml-popup'
-                                });
-                            }
+        //                         circleMarker.bindPopup(popupContent, {
+        //                             maxWidth: 300,
+        //                             className: 'custom-kml-popup'
+        //                         });
+        //                     }
 
-                            // Replace the original marker with circle marker
-                            layerGroup.removeLayer(layer);
-                            layerGroup.addLayer(circleMarker);
-                        }
+        //                     // Replace the original marker with circle marker
+        //                     layerGroup.removeLayer(layer);
+        //                     layerGroup.addLayer(circleMarker);
+        //                 }
 
-                        // Styling for line and polygon layers
-                        if (layer instanceof L.Path) {
-                            layer.setStyle({
-                                color: '#0000FF',
-                                weight: 2,
-                                opacity: 0.7,
-                                fillColor: '#0000FF',
-                                fillOpacity: 0.3
-                            });
+        //                 // Styling for line and polygon layers
+        //                 if (layer instanceof L.Path) {
+        //                     layer.setStyle({
+        //                         color: '#0000FF',
+        //                         weight: 2,
+        //                         opacity: 0.7,
+        //                         fillColor: '#0000FF',
+        //                         fillOpacity: 0.3
+        //                     });
 
-                            // Ensure popups work for lines and polygons too
-                            if (layer.feature && layer.feature.properties) {
-                                const popupContent = Object.entries(layer.feature.properties)
-                                    .map(([key, value]) => `<strong>${key}:</strong> ${value}`)
-                                    .join('<br>');
+        //                     // Ensure popups work for lines and polygons too
+        //                     if (layer.feature && layer.feature.properties) {
+        //                         const popupContent = Object.entries(layer.feature.properties)
+        //                             .map(([key, value]) => `<strong>${key}:</strong> ${value}`)
+        //                             .join('<br>');
                                 
-                                layer.bindPopup(popupContent, {
-                                    maxWidth: 300,
-                                    className: 'custom-kml-popup'
-                                });
-                            }
-                        }
-                    });
-                });
+        //                         layer.bindPopup(popupContent, {
+        //                             maxWidth: 300,
+        //                             className: 'custom-kml-popup'
+        //                         });
+        //                     }
+        //                 }
+        //             });
+        //         });
 
-            // Add the KML layer to the layers control
-            kmlLayers[`${kml.name}`] = kmlLayer;
-        });
+        //     // Add the KML layer to the layers control
+        //     kmlLayers[`${kml.name}`] = kmlLayer;
+        // });
 
         // Zoom to the bounds of the enabled KML layer
         map.on('overlayadd', function(eventLayer) {
@@ -540,7 +549,7 @@
 
         L.control.layers(baseMaps, {
             'All Admin Boundaries': adminLayersGroup,
-            ...kmlLayers
+            // ...kmlLayers
         }).addTo(map);
 
         let jsonData = [];
