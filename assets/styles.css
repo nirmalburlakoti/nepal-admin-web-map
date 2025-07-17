@@ -226,6 +226,31 @@ body {
     transform: translateY(-2px);
 }
 
+#findMeButton {
+    position: absolute;
+    bottom: 140px;
+    right: 20px;
+    z-index: 1000;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#findMeButton:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+    transform: translateY(-2px);
+}
+
 /* Ensure the button is above the map but below other controls */
 .leaflet-control-container {
     z-index: 1001;
@@ -234,4 +259,32 @@ body {
 .custom-popup .leaflet-popup-content {
     max-height: 200px;
     overflow-y: auto;
+}
+
+#upload-container {
+    position: absolute;
+    bottom: 80px;
+    right: 20px;
+    z-index: 1000;
+}
+
+#uploadButton {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#uploadButton:hover {
+    background-color: #218838;
+    box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+    transform: translateY(-2px);
 }

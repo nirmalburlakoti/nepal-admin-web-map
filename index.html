@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nepal Administrative Map</title>
-    <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.6.0/assets/admin-map-favicon.webp">
+    <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.7.0/assets/admin-map-favicon.webp">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.6.0/assets/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.7.0/assets/styles.css">
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src='https://unpkg.com/leaflet-omnivore@0.3.4/leaflet-omnivore.js'></script>
+    <script src='https://unpkg.com/leaflet-pip@latest/leaflet-pip.js'></script>
     <script src="https://cdn.jsdelivr.net/npm/tokml@0.4.0/tokml.js"></script>
+    <script src="https://unpkg.com/shpjs@latest/dist/shp.js"></script>
     <meta property="og:url" content="https://cinnamon.com.np">
     <meta property="og:title" content="Nepal Administrative Map">
     <meta property="og:description" content="An interactive web-based geographical visualization of Nepal's administrative boundaries, allowing users to explore and download administrative divisions from provinces to wards using dynamic, color-coded maps with OpenStreetMap and Google satellite views.">
-    <meta property="og:image" content="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.6.0/assets/admin-map-favicon.png">
+    <meta property="og:image" content="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.7.0/assets/admin-map-favicon.png">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1024">
     <meta property="og:image:height" content="1024">
@@ -41,6 +43,26 @@
         Download KML
     </button>
 
+    <button id="findMeButton" onclick="findMe()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"></path>
+            <circle cx="12" cy="9" r="2.5"></circle>
+        </svg>
+        Find Me
+    </button>
+
+    <div id="upload-container">
+        <input type="file" id="upload-input" accept=".zip,.kml" style="display: none;">
+        <button id="uploadButton" onclick="document.getElementById('upload-input').click()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="17 8 12 3 7 8"></polyline>
+                <line x1="12" y1="3" x2="12" y2="15"></line>
+            </svg>
+            Upload File
+        </button>
+    </div>
+
     <div id="map-controls">
         <div class="control-group color-group">
             <label id="color-label" for="color-picker">Stroke Color:</label>
@@ -59,9 +81,9 @@
                 min="0" 
                 max="1" 
                 step="0.01" 
-                value="0.3"
+                value="0.15"
             >
-            <output id="opacity-value">0.30</output>
+            <output id="opacity-value">0.15</output>
         </div>
     </div>
 
@@ -149,10 +171,10 @@
         };
 
         // GeoJSON data for each level
-        const provinceGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.6.0/data/province.json";
-        const districtGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.6.0/data/districts/"; // Folder containing districts as individual GeoJSON files
-        const localLevelGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.6.0/data/locallevels/"; // Folder containing local levels
-        const wardGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.6.0/data/wards/"; // Folder containing wards
+        const provinceGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.7.0/data/province.json";
+        const districtGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.7.0/data/districts/"; // Folder containing districts as individual GeoJSON files
+        const localLevelGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.7.0/data/locallevels/"; // Folder containing local levels
+        const wardGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.7.0/data/wards/"; // Folder containing wards
 
         // Global state to track the current hierarchy level and selected region
         let currentLevel = 'province';
@@ -459,98 +481,7 @@
             document.body.removeChild(link);
         }
 
-        // Group KML layers individually with titles
-        const kmlFiles = [
-            { name: "Aadarsh Sailigadh WSP", file: "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.6.0/data/projects/Aadarsh Sailigadh WSP.kml" },
-            { name: "Barpak WSP", file: "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.6.0/data/projects/Barpak WSP.kml" }
-        ];
-
-        const kmlLayers = {};
-
-        kmlFiles.forEach(kml => {
-            const kmlLayer = omnivore.kml(kml.file)
-                .on('ready', function() {
-                    const layerGroup = this;
-                    layerGroup.eachLayer(function(layer) {
-                        // Styling for point layers
-                        if (layer instanceof L.Marker) {
-                            const latlng = layer.getLatLng();
-                            const circleMarker = L.circleMarker(latlng, {
-                                radius: 3,
-                                fillColor: '#FF0000',
-                                color: '#000',
-                                weight: 1,
-                                opacity: 1,
-                                fillOpacity: 0.8
-                            });
-
-                            // Explicitly copy ALL properties from original marker
-                            circleMarker.feature = JSON.parse(JSON.stringify(layer.feature));
-
-                            // Create popup content
-                            if (circleMarker.feature && circleMarker.feature.properties) {
-                                const popupContent = Object.entries(circleMarker.feature.properties)
-                                    .map(([key, value]) => `<strong>${key}:</strong> ${value}`)
-                                    .join('<br>');
-                                
-                                circleMarker.bindPopup(popupContent, {
-                                    maxWidth: 300,
-                                    className: 'custom-kml-popup'
-                                });
-                            }
-
-                            // Replace the original marker with circle marker
-                            layerGroup.removeLayer(layer);
-                            layerGroup.addLayer(circleMarker);
-                        }
-
-                        // Styling for line and polygon layers
-                        if (layer instanceof L.Path) {
-                            layer.setStyle({
-                                color: '#0000FF',
-                                weight: 2,
-                                opacity: 0.7,
-                                fillColor: '#0000FF',
-                                fillOpacity: 0.3
-                            });
-
-                            // Ensure popups work for lines and polygons too
-                            if (layer.feature && layer.feature.properties) {
-                                const popupContent = Object.entries(layer.feature.properties)
-                                    .map(([key, value]) => `<strong>${key}:</strong> ${value}`)
-                                    .join('<br>');
-                                
-                                layer.bindPopup(popupContent, {
-                                    maxWidth: 300,
-                                    className: 'custom-kml-popup'
-                                });
-                            }
-                        }
-                    });
-                });
-
-            // Add the KML layer to the layers control
-            kmlLayers[`${kml.name}`] = kmlLayer;
-        });
-
-        // Zoom to the bounds of the enabled KML layer
-        map.on('overlayadd', function(eventLayer) {
-            if (eventLayer.layer.getBounds) {
-                map.fitBounds(eventLayer.layer.getBounds());
-            }
-        });
-
-        const adminLayersGroup = new L.LayerGroup([
-            layers.province,
-            layers.district,
-            layers.locallevel,
-            layers.ward
-        ]);
-
-        L.control.layers(baseMaps, {
-            'All Admin Boundaries': adminLayersGroup,
-            // ...kmlLayers
-        }).addTo(map);
+        L.control.layers(baseMaps).addTo(map);
 
         let jsonData = [];
 
@@ -624,6 +555,74 @@
             window.currentChart = chart;
         }
 
+        function findMe() {
+            if ("geolocation" in navigator) {
+                navigator.geolocation.getCurrentPosition(position => {
+                    const lat = position.coords.latitude;
+                    const lng = position.coords.longitude;
+
+                    // Add a marker to the map
+                    L.marker([lat, lng]).addTo(map)
+                        .bindPopup("You are here!").openPopup();
+
+                    map.setView([lat, lng], 12);
+
+                    // Find the political boundary
+                    const allLayers = [layers.province, layers.district, layers.locallevel, layers.ward];
+                    let found = false;
+
+                    // Clear previous highlighting
+                    allLayers.forEach(layer => {
+                        layer.eachLayer(l => l.setStyle({ color: colorPicker.value }));
+                    });
+
+                    for (const layer of allLayers) {
+                        const containingLayers = leafletPip.pointInLayer([lng, lat], layer);
+                        if (containingLayers.length > 0) {
+                            const containingLayer = containingLayers[0];
+                            containingLayer.setStyle({ color: 'red' });
+
+                            const feature = containingLayer.feature;
+                            const properties = feature.properties;
+                            let boundaryName = '';
+
+                            if (properties.name) {
+                                boundaryName = properties.name;
+                            } else if (properties.Name) {
+                                boundaryName = properties.Name;
+                            }
+
+                            // Update breadcrumb
+                            if (properties.province) {
+                                updateBreadcrumb('province', properties.province);
+                            }
+                            if (properties.District) {
+                                updateBreadcrumb('district', properties.District);
+                            }
+                            if (properties.GaPa_NaPa) {
+                                updateBreadcrumb('locallevel', properties.GaPa_NaPa);
+                            }
+                            if (properties.Ward_No) {
+                                updateBreadcrumb('ward', properties.Ward_No);
+                            }
+                            
+                            alert(`You are in: ${boundaryName}`);
+                            found = true;
+                            break;
+                        }
+                    }
+
+                    if (!found) {
+                        alert("Could not determine your political boundary. Are you in Nepal?");
+                    }
+                }, error => {
+                    alert("Could not get your location. Please make sure you have enabled location services.");
+                });
+            } else {
+                alert("Geolocation is not supported by your browser.");
+            }
+        }
+
         // Add event listener to the map to hide the chart on click
         document.getElementById('map').addEventListener('click', () => {
             const chartDiv = document.getElementById('chart');
@@ -639,6 +638,37 @@
             document.getElementById("map").style.height = "100vh";
             document.getElementById("map-controls").style.bottom = "20px";
             document.getElementById("downloadButton").style.bottom = "20px";
+        });
+
+        // Handle file upload
+        document.getElementById('upload-input').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (!file) {
+                return;
+            }
+
+            const reader = new FileReader();
+            const fileExtension = file.name.split('.').pop().toLowerCase();
+
+            if (fileExtension === 'kml') {
+                reader.onload = function(e) {
+                    const kmlLayer = omnivore.kml.parse(e.target.result);
+                    map.addLayer(kmlLayer);
+                    map.fitBounds(kmlLayer.getBounds());
+                };
+                reader.readAsText(file);
+            } else if (fileExtension === 'zip') {
+                reader.onload = function(e) {
+                    shp(e.target.result).then(function(geojson) {
+                        const shpLayer = L.geoJson(geojson);
+                        map.addLayer(shpLayer);
+                        map.fitBounds(shpLayer.getBounds());
+                    });
+                };
+                reader.readAsArrayBuffer(file);
+            } else {
+                alert('Unsupported file type. Please upload a KML or a zipped shapefile.');
+            }
         });
     </script>
 </body>
