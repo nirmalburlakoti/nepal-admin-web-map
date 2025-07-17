@@ -481,7 +481,16 @@
             document.body.removeChild(link);
         }
 
-        L.control.layers(baseMaps).addTo(map);
+        const adminLayersGroup = new L.LayerGroup([
+            layers.province,
+            layers.district,
+            layers.locallevel,
+            layers.ward
+        ]);
+
+        L.control.layers(baseMaps, {
+            'All Admin Boundaries': adminLayersGroup
+        }).addTo(map);
 
         let jsonData = [];
 
