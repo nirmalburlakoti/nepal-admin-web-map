@@ -27,7 +27,7 @@ An interactive web-based geographical visualization of Nepal's administrative bo
 
 ## Data Sources
 
-- **Administrative Boundaries**: The GeoJSON data for the administrative boundaries is sourced from [local-bodies-boundary-data](https://github.com/mesaugat/local-bodies-boundary-data).
+- **Administrative Boundaries**: The GeoJSON data for the administrative boundaries is sourced from different websites.
 - **Population Data**: The population data is fetched from the [National Census 2021 API](https://censusapi.cbs.gov.np/).
 
 ## Technologies Used
