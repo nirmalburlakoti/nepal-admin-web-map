@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nepal Administrative Map</title>
-    <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.7.0/assets/admin-map-favicon.webp">
+    <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.8.0/assets/admin-map-favicon.webp">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.7.0/assets/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.8.0/assets/styles.css">
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src='https://unpkg.com/leaflet-omnivore@0.3.4/leaflet-omnivore.js'></script>
@@ -16,7 +16,7 @@
     <meta property="og:url" content="https://cinnamon.com.np">
     <meta property="og:title" content="Nepal Administrative Map">
     <meta property="og:description" content="An interactive web-based geographical visualization of Nepal's administrative boundaries, allowing users to explore and download administrative divisions from provinces to wards using dynamic, color-coded maps with OpenStreetMap and Google satellite views.">
-    <meta property="og:image" content="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.7.0/assets/admin-map-favicon.png">
+    <meta property="og:image" content="https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.8.0/assets/admin-map-favicon.png">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1024">
     <meta property="og:image:height" content="1024">
@@ -34,7 +34,7 @@
     <div class="breadcrumb flat" id="breadcrumb">
         <a onclick="goToLevel('nepal')">Nepal</a>
     </div>
-    <button id="downloadButton" onclick="downloadCurrentLevel()">
+    <button id="downloadButton" onclick="downloadCurrentLevel()" title="Download the current level of political boundary in a KML format.">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
             <polyline points="7 10 12 15 17 10"></polyline>
@@ -43,7 +43,7 @@
         Download KML
     </button>
 
-    <button id="findMeButton" onclick="findMe()">
+    <button id="findMeButton" onclick="findMe()" title="Find your location within the boundary of Nepal.">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"></path>
             <circle cx="12" cy="9" r="2.5"></circle>
@@ -51,7 +51,7 @@
         Find Me
     </button>
 
-    <div id="upload-container">
+    <div id="upload-container" class="uploadContainer" title="Upload KML or zipped shapefile or geopackage to the layers' location in Nepal.">
         <input type="file" id="upload-input" accept=".zip,.kml" style="display: none;">
         <button id="uploadButton" onclick="document.getElementById('upload-input').click()">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -171,10 +171,10 @@
         };
 
         // GeoJSON data for each level
-        const provinceGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.7.0/data/province.json";
-        const districtGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.7.0/data/districts/"; // Folder containing districts as individual GeoJSON files
-        const localLevelGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.7.0/data/locallevels/"; // Folder containing local levels
-        const wardGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.7.0/data/wards/"; // Folder containing wards
+        const provinceGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.8.0/data/province.json";
+        const districtGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.8.0/data/districts/"; // Folder containing districts as individual GeoJSON files
+        const localLevelGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.8.0/data/locallevels/"; // Folder containing local levels
+        const wardGeoJson = "https://cdn.jsdelivr.net/gh/nirmalburlakoti/nepal-admin-web-map@v0.8.0/data/wards/"; // Folder containing wards
 
         // Global state to track the current hierarchy level and selected region
         let currentLevel = 'province';
@@ -556,6 +556,8 @@
             document.getElementById("map").style.height = "90vh";
             document.getElementById("map-controls").style.bottom = "80px";
             document.getElementById("downloadButton").style.bottom = "80px";
+            document.getElementById("upload-container").style.bottom = "140px";
+            document.getElementById("findMeButton").style.bottom = "200px";
             chartDiv.style.display = 'block'; // Make chart visible
             const chart = new ApexCharts(chartDiv, options);
             chart.render();
@@ -569,10 +571,6 @@
                 navigator.geolocation.getCurrentPosition(position => {
                     const lat = position.coords.latitude;
                     const lng = position.coords.longitude;
-
-                    // Add a marker to the map
-                    L.marker([lat, lng]).addTo(map)
-                        .bindPopup("You are here!").openPopup();
 
                     map.setView([lat, lng], 12);
 
@@ -615,7 +613,6 @@
                                 updateBreadcrumb('ward', properties.Ward_No);
                             }
                             
-                            alert(`You are in: ${boundaryName}`);
                             found = true;
                             break;
                         }
@@ -647,6 +644,8 @@
             document.getElementById("map").style.height = "100vh";
             document.getElementById("map-controls").style.bottom = "20px";
             document.getElementById("downloadButton").style.bottom = "20px";
+            document.getElementById("upload-container").style.bottom = "80px";
+            document.getElementById("findMeButton").style.bottom = "140px";
         });
 
         // Handle file upload
